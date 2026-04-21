@@ -1,19 +1,21 @@
 # CalJMcRae
 
-# 👋 Hi, I'm Callum McRae
+#  Hi, I'm Callum McRae
 
-🎯 Aspiring GRC Analyst | PCI DSS | Risk Management | Security Compliance  
+🎯 Aspiring GRC Analyst | PCI DSS | Risk Management | Security Compliance
+
+My goal with these projects is to demonstate my understandings of critical GRC frameworks and how I have the ability to complete the work that'll be required of me.
 
 ---
 
-## 🔐 Featured Projects
+##  Featured Projects
 - [PCI DSS Scope Determination](link-here)
 - [Risk Assessment Lab](link-here)
 - [Vendor Risk Management](link-here)
 
 ---
 
-## 🧰 Skills
+##  Skills
 - PCI DSS, NIST CSF, ISO 27001  
 - Risk Analysis & Assessment  
 - Security Policies & Controls  
