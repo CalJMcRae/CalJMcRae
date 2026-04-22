@@ -13,7 +13,7 @@ My longer-term interest is in Cybersecurity and AI governance and how emerging t
 
 ## Featured Projects
 
-### [PCI DSS Scope Determination](link-here)
+### [PCI DSS Scope Determination]([PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project))
 Simulates a scoping exercise for a card-processing environment — identifying in-scope
 systems, segmentation strategies, and documentation requirements under PCI DSS v4.0.
 
