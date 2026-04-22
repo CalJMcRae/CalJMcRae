@@ -14,8 +14,8 @@ My longer-term interest is in Cybersecurity and AI governance and how emerging t
 ## Featured Projects
 
 ### [PCI DSS Scope Determination]([PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project))
-Simulates a scoping exercise for a card-processing environment — identifying in-scope
-systems, segmentation strategies, and documentation requirements under PCI DSS v4.0.
+### [PCI DSS Scope Determination](YOUR-LINK-HERE)
+Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
 ### [Risk Assessment Lab](link-here)
 Walks through a structured risk assessment using NIST SP 800-30 methodology, including
