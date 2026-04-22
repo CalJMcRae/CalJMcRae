@@ -4,7 +4,7 @@
 
 🎯 Aspiring GRC Analyst | PCI DSS | Risk Management | Security Compliance
 
-My goal with these projects is to demonstate my understandings of critical GRC frameworks and how I have the ability to complete the work that'll be required of me.
+I'm transitioning into cybersecurity with a focus on GRC, and these projects are how I'm proving it — not just to employers, but to myself. Each one is an opportunity to apply frameworks like NIST, ISO 27001, and risk management principles to realistic scenarios, demonstrating the practical skills behind the certifications.
 
 ---
 
@@ -24,7 +24,7 @@ My goal with these projects is to demonstate my understandings of critical GRC f
 
 ## 📜 Certifications
 -  CompTIA Security+ (In Progress) 
--  ISC2 CC  (Planned)
+-  ISC2 SSCP  (Planned)
 
 ---
 
