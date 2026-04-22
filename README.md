@@ -13,7 +13,7 @@ My longer-term interest is in Cybersecurity and AI governance and how emerging t
 
 ## Featured Projects
 
-### [PCI DSS Scope Determination]([PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project))
+### ([PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project))
 ### [PCI DSS Scope Determination](YOUR-LINK-HERE)
 Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
