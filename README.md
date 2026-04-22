@@ -38,6 +38,7 @@ Vendor Risk Management · Audit Preparation
 
 **Tools & Platforms**
 Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools and Prompting
+
 ---
 
 ## Certifications
