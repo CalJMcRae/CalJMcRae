@@ -67,7 +67,7 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 
 - CompTIA Security+ 
 - ISC2 CGRC - In progress
-**Roadmap:** CRISC · CISM · CISSP (long-term)
+- **Roadmap:** CRISC · CISM · CISSP (long-term)
 
 ---
 
