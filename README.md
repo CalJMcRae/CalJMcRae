@@ -14,7 +14,7 @@ My longer-term interest is in Cybersecurity and AI governance and how emerging t
 ## Featured Projects
 
 ### ([PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project))
-### [PCI DSS Scope Determination](YOUR-LINK-HERE)
+
 Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
 ### [Risk Assessment Lab](link-here)
@@ -43,16 +43,16 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 
 ## Certifications
 
-- CompTIA Security+ — In Progress
-- ISC2 SSCP — Planned (next milestone after Security+)
-
-**Roadmap:** CySA+ · CRISC · CISM · CISSP (long-term)
+- CompTIA Security+ 
+- ISC2 CGRC - In progress
+**Roadmap:** CRISC · CISM · CISSP (long-term)
 
 ---
 
 ## Currently
 
-- Studying for CompTIA Security+ 
+- Recently passed my Sec+ exam 
+- Working as a GRC analyst in a volunteer role at Bloom Support group
 - Building a GRC project portfolio on GitHub
 - Exploring opportunities in GRC analyst roles — open to remote and San Diego–area positions
 

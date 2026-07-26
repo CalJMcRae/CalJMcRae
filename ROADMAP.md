@@ -36,7 +36,7 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 ---
 
-### Phase 1 — PCI DSS Network Segmentation Review `In Progress`
+### Phase 1 — PCI DSS Network Segmentation Review
 
 > Simulate a segmentation review for an e-commerce company handling cardholder data. The challenge is not just identifying gaps — it is defending your conclusions the way an auditor would challenge them.
 
