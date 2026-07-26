@@ -1,6 +1,6 @@
 # GRC Portfolio Roadmap
 
-**Callum McRae · Aspiring GRC Analyst**  
+**Callum McRae · Aspiring GRC Analyst**
 **Target Role:** GRC Analyst · **Focus:** Risk Management, Compliance & AI Governance
 
 ---
@@ -36,9 +36,9 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 ---
 
-### Phase 1 — PCI DSS Network Segmentation Review
+### Phase 1 — PCI DSS Scope Determination `Complete ✅`
 
-> Simulate a segmentation review for an e-commerce company handling cardholder data. The challenge is not just identifying gaps — it is defending your conclusions the way an auditor would challenge them.
+> Simulated a scope determination and network segmentation review for an e-commerce environment handling cardholder data. The challenge is not just identifying gaps — it is defending your conclusions the way an auditor would challenge them.
 
 | | |
 |---|---|
@@ -46,33 +46,89 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 | **Key skill** | Defending technical claims under audit pressure |
 | **Why it matters** | Segmentation is one of the most contested areas in PCI assessments — showing you can reason through it signals audit readiness |
 
-#### Tasks
-
-- [ ] Define environment and scenario (e.g. e-commerce, card-present/not-present)
-- [ ] Identify and map the Cardholder Data Environment (CDE)
-- [ ] Evaluate segmentation controls against PCI DSS v4.0 requirements
-- [ ] Determine whether segmentation is valid, insufficient, or ambiguous
-- [ ] Document assumptions (network design, firewall rules, data flows)
-- [ ] Identify weaknesses an auditor would challenge
-- [ ] Write a defensible conclusion with trade-off analysis
-
 #### Deliverables
 
-- `segmentation-review.md` — full assessment with assumptions and conclusions
-- Network diagram 
-- 3–5 min Loom walkthrough explaining your reasoning
+- [Repo: PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project)
+- Assessed CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation
 
 #### Resume Bullet
 
-> Conducted PCI DSS v4.0 network segmentation review for a simulated e-commerce environment; identified CDE boundary gaps and produced audit-ready documentation with defensible conclusions.
+> Conducted PCI DSS v4.0 scope determination and network segmentation review for a simulated e-commerce environment; identified CDE boundary gaps and produced audit-ready documentation with defensible conclusions.
 
-#### Lessons Learned *(complete after finishing)*
+#### Lessons Learned
 
 *What would you do differently? What assumptions proved wrong? What surprised you?*
 
 ---
 
-### Phase 2 — ISO 27001 Statement of Applicability `Not Started`
+### Phase 2 — Risk Assessment Lab `In Progress`
+
+> Walks through a structured risk assessment using NIST SP 800-30 methodology, including asset identification, threat modelling, likelihood/impact scoring, and treatment options.
+
+| | |
+|---|---|
+| **Framework** | NIST SP 800-30 |
+| **Key skill** | Structured risk analysis and treatment recommendation |
+| **Why it matters** | NIST SP 800-30 is a foundational federal risk methodology — demonstrating fluency here signals readiness for structured, defensible risk work |
+
+#### Tasks
+
+- [ ] Define scenario and scope
+- [ ] Identify assets and their business value
+- [ ] Identify threats and vulnerabilities
+- [ ] Score likelihood and impact for each risk
+- [ ] Recommend treatment options (mitigate, accept, transfer, avoid)
+- [ ] Document assumptions and residual risk
+
+#### Deliverables
+
+- `risk-assessment-lab.md` — full assessment with scoring and treatment plan
+- 3–5 min Loom walkthrough explaining your reasoning
+
+#### Resume Bullet
+
+> Conducted a structured risk assessment using NIST SP 800-30 methodology; performed asset identification, threat modelling, and likelihood/impact scoring, and recommended defensible risk treatment options.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
+### Phase 3 — Vendor Risk Management `In Progress`
+
+> Develops a third-party risk management process: intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
+
+| | |
+|---|---|
+| **Framework** | General GRC practice / NIST CSF |
+| **Key skill** | Third-party risk evaluation and lifecycle management |
+| **Why it matters** | Vendor risk is one of the most common real-world GRC responsibilities, especially for lean or micro organisations relying on third-party tools |
+
+#### Tasks
+
+- [ ] Design vendor intake questionnaire
+- [ ] Define risk tiering criteria (critical, high, medium, low)
+- [ ] Build a control evaluation checklist per tier
+- [ ] Define ongoing monitoring cadence and review triggers
+- [ ] Document escalation path for high-risk vendors
+
+#### Deliverables
+
+- `vendor-risk-management.md` — full process documentation
+- 3–5 min Loom walkthrough
+
+#### Resume Bullet
+
+> Developed a third-party vendor risk management process including intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
+### Phase 4 — ISO 27001 Statement of Applicability `Not Started`
 
 > Produce a Statement of Applicability for a fictional mid-size company. The hard part is not listing controls — it is justifying the exclusions in a way that holds up to scrutiny.
 
@@ -100,13 +156,13 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 > Developed an ISO 27001:2022 Statement of Applicability for a simulated mid-size organisation; documented risk-based inclusion and exclusion decisions for all Annex A controls with board-level executive summary.
 
-#### Lessons Learned *(complete after finishing)*
+#### Lessons Learned
 
 *What was harder than expected? Any controls where the right call was genuinely unclear?*
 
 ---
 
-### Phase 3 — Risk Acceptance Documentation `Not Started`
+### Phase 5 — Risk Acceptance Documentation `Not Started`
 
 > Document a formal risk acceptance for a realistic business scenario — an unpatched legacy system, a third-party integration, or a deferred control implementation. The goal is executive-level communication of a security decision.
 
@@ -134,13 +190,13 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 > Produced executive-level risk acceptance documentation for a simulated legacy system scenario; quantified business impact and communicated compensating controls and review cadence to a non-technical audience.
 
-#### Lessons Learned *(complete after finishing)*
+#### Lessons Learned
 
 *Was the business case for acceptance convincing? What would change your recommendation?*
 
 ---
 
-### Phase 4 — EU AI Act Compliance Assessment `Stretch Goal`
+### Phase 6 — EU AI Act Compliance Assessment `Stretch Goal`
 
 > Assess a fictional AI system against the EU AI Act risk classification framework. This project directly supports an interest in AI governance and is a strong differentiator — few entry-level candidates can demonstrate it.
 
@@ -168,13 +224,9 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 > Completed EU AI Act risk classification and gap analysis for a simulated AI system; identified applicable requirements and documented areas of regulatory ambiguity with recommended interpretations.
 
-#### Lessons Learned *(complete after finishing)*
-
-*Where was the regulation unclear? How did you handle genuine ambiguity?*
-
 ---
 
-### Phase 5 — GRC Control Automation Proposal `Stretch Goal`
+### Phase 7 — GRC Control Automation Proposal `Stretch Goal`
 
 > Design an automation approach for a manual GRC control — evidence collection, periodic review, or control testing. This bridges GRC and technical implementation, showing you understand both sides.
 
@@ -221,7 +273,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 
 | Period | Focus | Status |
 |---|---|---|
-| Month 1 | PCI DSS Segmentation Review + Security+ study | In Progress |
+| Month 1 | Risk Assessment Lab + Vendor Risk Management | In Progress |
 | Month 2 | ISO 27001 Statement of Applicability | Not Started |
 | Month 3 | Risk Acceptance Documentation | Not Started |
 | Month 4+ | EU AI Act Assessment (stretch) | Stretch Goal |
@@ -232,16 +284,20 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 ## Progress Tracker
 
 ### Projects
-- [ ] Phase 1 — PCI DSS Segmentation Review
-- [ ] Phase 2 — ISO 27001 Statement of Applicability
-- [ ] Phase 3 — Risk Acceptance Documentation
-- [ ] Phase 4 — EU AI Act Assessment *(stretch)*
-- [ ] Phase 5 — GRC Control Automation *(stretch)*
+- [x] Phase 1 — PCI DSS Scope Determination
+- [ ] Phase 2 — Risk Assessment Lab
+- [ ] Phase 3 — Vendor Risk Management
+- [ ] Phase 4 — ISO 27001 Statement of Applicability
+- [ ] Phase 5 — Risk Acceptance Documentation
+- [ ] Phase 6 — EU AI Act Assessment *(stretch)*
+- [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
-- [ ] CompTIA Security+ *(in progress)*
-- [ ] ISC2 CC *(next milestone)*
-- [ ] CySA+ or CRISC *(MyCAA-funded)*
+- [x] CompTIA Security+
+- [ ] ISC2 CGRC *(in progress)*
+- [ ] CRISC *(next milestone)*
+- [ ] CISM *(long-term)*
+- [ ] CISSP *(long-term)*
 
 ---
 
