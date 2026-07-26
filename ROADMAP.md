@@ -57,7 +57,27 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 #### Lessons Learned
 
-*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+This was my first hands-on project with the PCI DSS framework, so it was a 
+learning experience from the start — which is exactly the point of this 
+portfolio. Working through it pushed my understanding of PCI DSS beyond 
+surface-level familiarity and gave me the vocabulary and reasoning process 
+to meaningfully contribute to a real PCI DSS audit conversation in the 
+future.
+
+Beyond the framework itself, it reinforced why controls like segmentation, 
+technology dependency mapping, and data privacy matter in practice, not 
+just on paper. What surprised me most was how much of the difficulty was 
+in defending a conclusion rather than reaching one — an auditor doesn't 
+just want the right answer, they want to see the reasoning survive 
+challenge.
+
+If I revisited this project, I'd spend more time stress-testing my own 
+assumptions before writing the final conclusion, rather than after. I 
+don't consider this a finished or fully audit-grade piece of work yet — 
+but it demonstrates the thing I think matters most at this stage: the 
+ability to reason through a real compliance scenario, document that 
+reasoning defensibly, and keep improving it as I learn.
 
 ---
 
