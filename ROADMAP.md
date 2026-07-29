@@ -1,6 +1,6 @@
 # GRC Portfolio Roadmap
 
-**Callum McRae · Aspiring GRC Analyst**
+**Callum McRae · GRC Analyst**
 **Target Role:** GRC Analyst · **Focus:** Risk Management, Compliance & AI Governance
 
 ---
