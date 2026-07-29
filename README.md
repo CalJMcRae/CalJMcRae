@@ -17,7 +17,7 @@ and compliance posture, including:
   disabilities — and implemented fixes to close them
 - Conducting risk assessments and maintaining the risk register
 - Supporting audits and ensuring compliance with frameworks such as 
-  [NIST CSF / ISO 27001 / HIPAA]
+  NIST CSF / ISO 27001 / PIA (HIPAA Equivalent)
 - Developing and maintaining security policies and procedures
 - Communicating risk findings and remediation plans to stakeholders and 
   business decision makers, translating technical issues into 
