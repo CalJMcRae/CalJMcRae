@@ -6,7 +6,7 @@
 
 I'm transitioning into cybersecurity from a background in Professional Sports and sociology with a focused interest in GRC — governance, risk, and compliance. These projects are how I'm building that expertise in public: applying frameworks like NIST CSF, ISO 27001, and PCI DSS to realistic scenarios, and developing the practical skills that sit behind the certifications.
 
-I'm a volunteer GRC Analyst at Bloom Support Group, 
+I'm currently a GRC Analyst at Bloom Support Group, 
 a micro company where I wear multiple hats in strengthening our security 
 and compliance posture, including:
 
@@ -74,7 +74,7 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 ## Currently
 
 - Recently passed my Sec+ exam 
-- Working as a GRC analyst in a volunteer role at Bloom Support group
+- Working remotely as a GRC analyst at Bloom Support group in Sydney, Australia
 - Building a GRC project portfolio on GitHub
 - Exploring opportunities in GRC analyst roles — open to remote and San Diego–area positions
 
