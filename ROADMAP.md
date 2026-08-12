@@ -48,7 +48,7 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 #### Deliverables
 
-- [Repo: PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project)
+- [PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project)
 - Assessed CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation
 
 #### Resume Bullet

@@ -39,6 +39,11 @@ security operations, especially when protecting a vulnerable client base.
 
 Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
+### [ISO 27001:2022 Statement of Applicability](https://github.com/CalJMcRae/ISO-27001-SoA-Project)
+
+Built a risk-driven Statement of Applicability for a simulated 85-person cloud-native SaaS company, assessing all 93 Annex A controls against a documented risk assessment. Defended 10 control exclusions — including 5 with full auditor-challenge documentation — mapped every applicable control to specific risks via a traceability matrix, and maintained honest implementation status throughout (61 Implemented, 20 Partial, 2 Planned) rather than defaulting to blanket compliance claims.
+
+
 ### [Risk Assessment Lab](link-here)- In progress 
 Walks through a structured risk assessment using NIST SP 800-30 methodology, including
 asset identification, threat modelling, likelihood/impact scoring, and treatment options.
