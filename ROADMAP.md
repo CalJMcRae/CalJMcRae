@@ -146,11 +146,14 @@ reasoning defensibly, and keep improving it as I learn.
 
 *What would you do differently? What assumptions proved wrong? What surprised you?*
 
+
+
 ---
+### Phase 4 — ISO 27001 Statement of Applicability `Complete ✅`
 
-### Phase 4 — ISO 27001 Statement of Applicability `Not Started`
-
-> Produce a Statement of Applicability for a fictional mid-size company. The hard part is not listing controls — it is justifying the exclusions in a way that holds up to scrutiny.
+> Produced a Statement of Applicability for a simulated 85-person cloud-native SaaS 
+> company. The hard part was not listing controls — it was justifying the exclusions 
+> in a way that holds up to scrutiny.
 
 | | |
 |---|---|
@@ -158,27 +161,32 @@ reasoning defensibly, and keep improving it as I learn.
 | **Key skill** | Risk-based decision making — inclusion AND exclusion rationale |
 | **Why it matters** | Auditors spend more time challenging exclusions than inclusions. Showing you can defend an exclusion is a differentiator |
 
-#### Tasks
-
-- [ ] Define company context: size, industry, data sensitivity, threat landscape
-- [ ] List all ISO 27001:2022 Annex A controls
-- [ ] For each control: include, exclude, or conditionally apply
-- [ ] Document risk reasoning for every exclusion
-- [ ] Flag controls where the decision is genuinely ambiguous
-- [ ] Write an executive summary accessible to a non-technical board
-
 #### Deliverables
 
-- `soa.md` — full Statement of Applicability with justifications
-- 3–5 min Loom walkthrough focusing on your exclusion rationale
+- [Repo: ISO 27001:2022 Statement of Applicability](https://github.com/CalJMcRae/ISO-27001-SoA-Project)
+- All 93 Annex A controls assessed with risk-driven justifications
+- 10 controls excluded, 5 with full auditor-challenge defense documentation
+- Risk-to-control traceability matrix, alternative measures mapping, and evidence reference index completed
 
 #### Resume Bullet
 
-> Developed an ISO 27001:2022 Statement of Applicability for a simulated mid-size organisation; documented risk-based inclusion and exclusion decisions for all Annex A controls with board-level executive summary.
+> Developed an ISO 27001:2022 Statement of Applicability for a simulated cloud-native SaaS organisation; assessed all 93 Annex A controls, documented risk-based inclusion and exclusion decisions, and produced full traceability and evidence documentation.
 
 #### Lessons Learned
 
-*What was harder than expected? Any controls where the right call was genuinely unclear?*
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+
+#### Tasks
+
+- [x] Define company context: size, industry, data sensitivity, threat landscape
+- [x] List all ISO 27001:2022 Annex A controls
+- [x] For each control: include, exclude, or conditionally apply
+- [x] Document risk reasoning for every exclusion
+- [x] Flag controls where the decision is genuinely ambiguous
+- [x] Write an executive summary accessible to a non-technical board
+
+
 
 ---
 
@@ -307,13 +315,14 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 - [x] Phase 1 — PCI DSS Scope Determination
 - [ ] Phase 2 — Risk Assessment Lab
 - [ ] Phase 3 — Vendor Risk Management
-- [ ] Phase 4 — ISO 27001 Statement of Applicability
+- [x] Phase 4 — ISO 27001 Statement of Applicability
 - [ ] Phase 5 — Risk Acceptance Documentation
 - [ ] Phase 6 — EU AI Act Assessment *(stretch)*
 - [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
 - [x] CompTIA Security+
+- [ ] AWS Solutions Architect Associate *(in progress)*
 - [ ] ISC2 CGRC *(in progress)*
 - [ ] CRISC *(next milestone)*
 - [ ] CISM *(long-term)*
