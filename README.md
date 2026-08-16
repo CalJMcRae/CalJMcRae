@@ -35,7 +35,7 @@ security operations, especially when protecting a vulnerable client base.
 
 ## Featured Projects
 
-### [PCI DSS Scope Determination] (https://github.com/CalJMcRae/pci-dss-scope-project)
+### [PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project)
 
 Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
