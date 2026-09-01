@@ -78,7 +78,6 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 
 - CompTIA Security+ 
 - AWS Solutions Architect Associate - In progress
-- ISC2 CGRC - In progress
 - **Roadmap:** CRISC · CISM · CISSP (long-term)
 
 ---

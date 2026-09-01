@@ -358,7 +358,6 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 ### Certifications
 - [x] CompTIA Security+
 - [ ] AWS Solutions Architect Associate *(in progress)*
-- [ ] ISC2 CGRC *(in progress)*
 - [ ] CRISC *(next milestone)*
 - [ ] CISM *(long-term)*
 - [ ] CISSP *(long-term)*
