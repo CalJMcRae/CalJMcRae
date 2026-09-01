@@ -1,5 +1,3 @@
-# CalJMcRae
-
 # Hi, I'm Callum McRae
 
 🎯 GRC Analyst | Risk Management | Security Compliance | AI Governance
@@ -17,7 +15,8 @@ and compliance posture, including:
   disabilities — and implemented fixes to close them
 - Conducting risk assessments and maintaining the risk register
 - Supporting audits and ensuring compliance with frameworks such as 
-  NIST CSF / ISO 27001 / PIA (HIPAA Equivalent)
+  NIST CSF / ISO 27001, and Privacy Impact Assessments under the 
+  Australian Privacy Act (APPs)
 - Developing and maintaining security policies and procedures
 - Communicating risk findings and remediation plans to stakeholders and 
   business decision makers, translating technical issues into 
@@ -43,19 +42,9 @@ Assessed network segmentation for a simulated e-commerce environment under PCI D
 
 Built a risk-driven Statement of Applicability for a simulated 85-person cloud-native SaaS company, assessing all 93 Annex A controls against a documented risk assessment. Defended 10 control exclusions — including 5 with full auditor-challenge documentation — mapped every applicable control to specific risks via a traceability matrix, and maintained honest implementation status throughout (61 Implemented, 20 Partial, 2 Planned) rather than defaulting to blanket compliance claims.
 
-
 ### [Cloud Risk Assessment & Remediation Lab (AWS)](https://github.com/CalJMcRae/GRC-AWS-Project)
 
 End-to-end GRC engagement on a purpose-built AWS environment for a simulated healthtech startup. Built a multi-service lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with deliberate misconfigurations, then ran an independent Prowler scan and triaged 116 findings into a 16-risk register (2 critical, 4 high) scored with NIST SP 800-30. Mapped every risk to NIST CSF 2.0 subcategories with current-vs-target maturity, ran a mock third-party vendor assessment (questionnaire, weighted scorecard, approve-with-conditions memo) and a SOC 2 Type II report review cross-checked against it, then delivered a prioritised remediation roadmap and implemented and verified two of the highest-priority fixes in the live environment — closing a critical public-S3 exposure and enforcing IMDSv2.
-
-
-### [Risk Assessment Lab](link-here)- In progress 
-Walks through a structured risk assessment using NIST SP 800-30 methodology, including
-asset identification, threat modelling, likelihood/impact scoring, and treatment options.
-
-### [Vendor Risk Management](link-here) - In progress
-Develops a third-party risk management process: intake questionnaire, risk tiering,
-control evaluation, and ongoing monitoring cadence.
 
 ---
 
@@ -85,8 +74,8 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 
 ## Currently
 
-- Recently passed my Sec+ exam 
-- Working remotely as a GRC analyst at Bloom Support group in Sydney, Australia
+- Hold CompTIA Security+; currently studying for Network+
+- Working remotely as a GRC analyst at Bloom Support Group in Sydney, Australia
 - Building a GRC project portfolio on GitHub
 - Exploring opportunities in GRC analyst roles — open to remote and San Diego–area positions
 
@@ -94,4 +83,4 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 
 ## Contact
 
-- LinkedIn: linkedin.com/in/callum-mcrae-28b2b0400
+- LinkedIn: [linkedin.com/in/callum-mcrae-28b2b0400](https://www.linkedin.com/in/callum-mcrae-28b2b0400)

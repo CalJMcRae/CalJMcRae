@@ -332,14 +332,16 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 
 ## Timeline
 
-| Period | Focus | Status |
-|---|---|---|
-| — | Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
-| Month 1 | Risk Assessment Lab + Vendor Risk Management | In Progress |
-| Month 2 | ISO 27001 Statement of Applicability | Not Started |
-| Month 3 | Risk Acceptance Documentation | Not Started |
-| Month 4+ | EU AI Act Assessment (stretch) | Stretch Goal |
-| Month 5+ | GRC Control Automation (stretch) | Stretch Goal |
+| Project | Status |
+|---|---|
+| PCI DSS Scope Determination | Complete ✅ |
+| ISO 27001:2022 Statement of Applicability | Complete ✅ |
+| Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
+| Risk Assessment Lab (standalone) | In progress |
+| Vendor Risk Management (standalone) | In progress |
+| Risk Acceptance Documentation | Planned |
+| EU AI Act Assessment | Stretch goal |
+| GRC Control Automation | Stretch goal |
 
 ---
 
