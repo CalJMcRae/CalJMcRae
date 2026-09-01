@@ -44,6 +44,11 @@ Assessed network segmentation for a simulated e-commerce environment under PCI D
 Built a risk-driven Statement of Applicability for a simulated 85-person cloud-native SaaS company, assessing all 93 Annex A controls against a documented risk assessment. Defended 10 control exclusions — including 5 with full auditor-challenge documentation — mapped every applicable control to specific risks via a traceability matrix, and maintained honest implementation status throughout (61 Implemented, 20 Partial, 2 Planned) rather than defaulting to blanket compliance claims.
 
 
+### [Cloud Risk Assessment & Remediation Lab (AWS)](https://github.com/CalJMcRae/GRC-AWS-Project)
+
+End-to-end GRC engagement on a purpose-built AWS environment for a simulated healthtech startup. Built a multi-service lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with deliberate misconfigurations, then ran an independent Prowler scan and triaged 116 findings into a 16-risk register (2 critical, 4 high) scored with NIST SP 800-30. Mapped every risk to NIST CSF 2.0 subcategories with current-vs-target maturity, ran a mock third-party vendor assessment (questionnaire, weighted scorecard, approve-with-conditions memo) and a SOC 2 Type II report review cross-checked against it, then delivered a prioritised remediation roadmap and implemented and verified two of the highest-priority fixes in the live environment — closing a critical public-S3 exposure and enforcing IMDSv2.
+
+
 ### [Risk Assessment Lab](link-here)- In progress 
 Walks through a structured risk assessment using NIST SP 800-30 methodology, including
 asset identification, threat modelling, likelihood/impact scoring, and treatment options.
@@ -57,13 +62,14 @@ control evaluation, and ongoing monitoring cadence.
 ## Skills
 
 **Frameworks & Standards**
-PCI DSS · NIST CSF · ISO 27001 · NIST SP 800-30 · HIPAA
+PCI DSS · NIST CSF 2.0 · ISO 27001 · NIST SP 800-30 · SOC 2 (AICPA TSC) · HIPAA
 
 **GRC Competencies**
-Risk Analysis & Assessment · Control Gap Analysis · Security Policy Drafting ·
-Vendor Risk Management · Audit Preparation
+Risk Analysis & Assessment · Cloud Security Posture Review · Control Gap Analysis ·
+Remediation Planning · Security Policy Drafting · Vendor Risk Management · Audit Preparation
 
 **Tools & Platforms**
+AWS (VPC, EC2, S3, IAM, CloudTrail, KMS) · Prowler (cloud security scanner) · Git / GitHub ·
 Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools and Prompting
 
 ---

@@ -282,6 +282,39 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
+### Phase 8 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
+
+> An end-to-end GRC engagement on a real AWS environment built for a simulated healthtech
+> startup (Meridian Health Analytics). Walks a finding from cloud misconfiguration through a
+> risk register, NIST CSF 2.0 mapping, and prioritised remediation to a verified fix — and
+> adds a mock vendor assessment and a SOC 2 Type II report review as independent workstreams.
+
+| | |
+|---|---|
+| **Frameworks** | NIST SP 800-30 · NIST CSF 2.0 · AICPA SOC 2 Trust Services Criteria · SIG Lite |
+| **Key skill** | Running the full risk lifecycle on live cloud infrastructure and closing the loop with evidence |
+| **Why it matters** | Most entry-level portfolios stop at documentation. Building the environment, scanning it with a real open-source tool, and implementing verified fixes shows the work can actually be done, not just written about |
+
+#### Deliverables
+
+- [Repo: GRC-AWS-Project](https://github.com/CalJMcRae/GRC-AWS-Project)
+- AWS lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with 5 documented deliberate misconfigurations and a hardened contrast tier
+- 16-risk register (2 critical, 4 high, 8 medium, 2 low) — 5 by design, 11 surfaced by an independent Prowler scan and triaged with documented keep/exclude rationale
+- NIST CSF 2.0 subcategory mapping with current-vs-target maturity ratings and a control heat map
+- Mock third-party vendor assessment: 8-domain questionnaire, weighted scorecard, executive "approve-with-conditions" memo with contractual conditions and compensating controls
+- SOC 2 Type II report review — scope, CUECs, exceptions, bridge letter — cross-checked against the vendor questionnaire
+- Prioritised remediation roadmap (0–30 / 30–90 / 90+ day windows, effort and cost per item) with 2 fixes implemented and verified in the live environment (public S3 exposure closed; IMDSv2 enforced)
+
+#### Resume Bullet
+
+> Built a multi-service AWS environment and ran an independent Prowler scan; produced a 16-risk register scored with NIST SP 800-30, mapped every risk to NIST CSF 2.0 with maturity ratings, completed a mock vendor assessment and SOC 2 Type II review, and delivered a prioritised remediation roadmap with two verified fixes implemented in the live environment.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
 ## Portfolio Presentation Standards
 
 The Loom walkthroughs are not optional extras — they are a core part of this portfolio. A document proves you can write. A walkthrough proves you can communicate. For an entry-level GRC role, being able to explain your reasoning out loud is exactly the skill being tested.
@@ -301,6 +334,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 
 | Period | Focus | Status |
 |---|---|---|
+| — | Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
 | Month 1 | Risk Assessment Lab + Vendor Risk Management | In Progress |
 | Month 2 | ISO 27001 Statement of Applicability | Not Started |
 | Month 3 | Risk Acceptance Documentation | Not Started |
@@ -319,6 +353,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 - [ ] Phase 5 — Risk Acceptance Documentation
 - [ ] Phase 6 — EU AI Act Assessment *(stretch)*
 - [ ] Phase 7 — GRC Control Automation *(stretch)*
+- [x] Phase 8 — Cloud Risk Assessment & Remediation Lab (AWS)
 
 ### Certifications
 - [x] CompTIA Security+
