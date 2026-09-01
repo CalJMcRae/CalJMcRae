@@ -77,6 +77,7 @@ Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools 
 ## Certifications
 
 - CompTIA Security+ 
+- CompTIA Network+ - In progress
 - AWS Solutions Architect Associate - In progress
 - **Roadmap:** CRISC · CISM · CISSP (long-term)
 
