@@ -220,33 +220,44 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 6 — EU AI Act Compliance Assessment `Stretch Goal`
+### Phase 6 — AI Compliance Assessment (Eramba) `Not Started`
 
-> Assess a fictional AI system against the EU AI Act risk classification framework. This project directly supports an interest in AI governance and is a strong differentiator — few entry-level candidates can demonstrate it.
+> Assess a simulated AWS-hosted clinical-risk ML model against the EU AI Act and the NIST AI RMF, and run the whole assessment inside a real GRC platform (Eramba Community). Scenario: Meridian Health Analytics deploys a model that scores partner-clinic patient cohorts for elevated ("rising") health risk and surfaces the scores to clinicians, trained on the de-identified data from the Phase 3 lab. The hard part is twofold — interpreting emerging AI regulation where the classification itself is genuinely contested, and operationalising that judgement as a control catalogue, risk register and treatment plan a reviewer could actually work from.
 
 | | |
 |---|---|
-| **Framework** | EU AI Act (2024) |
-| **Key skill** | Interpreting emerging regulation with genuine ambiguity |
-| **Why it matters** | AI governance is a fast-growing compliance area. Early demonstrable knowledge is a real career advantage |
+| **Frameworks** | EU AI Act (2024) · NIST AI RMF 1.0 · ISO/IEC 42001:2023 (overlay) |
+| **Tool** | Eramba Community Edition — open-source GRC platform, self-hosted via Docker (free) |
+| **Key skill** | Interpreting ambiguous AI regulation and operationalising it in a GRC platform, not just a document |
+| **Why it matters** | AI governance is a fast-growing compliance area few entry-level candidates can demonstrate; doing it in a recognised GRC tool rather than a Word doc is a second differentiator |
 
 #### Tasks
 
-- [ ] Define the AI system: purpose, inputs, outputs, affected parties
-- [ ] Apply EU AI Act risk classification (unacceptable, high, limited, minimal)
-- [ ] Map applicable requirements to the system's operations
-- [ ] Identify compliance gaps
-- [ ] Highlight areas of genuine regulatory ambiguity and how you resolved them
-- [ ] Note where the regulation is unclear and what further guidance would be needed
+- [ ] Stand up Eramba Community (Docker) and configure the organisation, framework and asset structure
+- [ ] Define the AI system: purpose, inputs, outputs, users, affected persons, lifecycle stage, hosting, third-party model components
+- [ ] Classify the system under the EU AI Act (prohibited / high-risk / limited / minimal); document the reasoning and the genuine ambiguity — clinical decision-support vs autonomous decision, and the medical-device (MDR) interplay
+- [ ] Map applicable EU AI Act obligations to the system (if high-risk: risk-management system, data governance, technical documentation, logging and record-keeping, transparency, human oversight, accuracy / robustness / cybersecurity, post-market monitoring)
+- [ ] Build a combined control catalogue in Eramba: EU AI Act obligations plus NIST AI RMF (Govern / Map / Measure / Manage) subcategories
+- [ ] Build the AI risk register in Eramba — bias and fairness, data quality, model drift, explainability, misuse, security, human-oversight failure, supply-chain (third-party model) — with likelihood / impact scoring
+- [ ] Run the assessment in Eramba: control status, gaps, owners
+- [ ] Document a treatment plan for each gap, with residual risk stated
+- [ ] Overlay an ISO/IEC 42001 gap check (optional)
+- [ ] Write the executive classification and gap-analysis report; state where the regulation is unclear and how the ambiguity was resolved
 
 #### Deliverables
 
-- `ai-act-assessment.md` — classification report with gap analysis
-- 3–5 min Loom walkthrough
+- `ai-compliance-assessment.md` — classification report, gap analysis, treatment plan, residual-risk sign-off
+- Eramba exports / screenshots — AI control catalogue, risk register, assessment, treatment plans
+- AI system data-flow diagram
+- 3–5 min Loom walkthrough — lead with the classification decision and the ambiguity
 
 #### Resume Bullet
 
-> Completed EU AI Act risk classification and gap analysis for a simulated AI system; identified applicable requirements and documented areas of regulatory ambiguity with recommended interpretations.
+> Assessed a simulated AWS-hosted clinical-risk ML model against the EU AI Act and NIST AI RMF; classified it under the AI Act risk tiers, built the combined control catalogue and AI risk register in Eramba (open-source GRC platform), and produced a gap analysis with prioritised treatment plans and residual-risk sign-off.
+
+#### Lessons Learned
+
+*Where was the regulation genuinely unclear? How did you handle the classification ambiguity? What did operationalising it in a GRC tool teach you that a document wouldn't have?*
 
 ---
 
@@ -301,8 +312,8 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 | ISO 27001:2022 Statement of Applicability | Complete ✅ |
 | Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
 | Vendor Risk Management | In progress |
+| AI Compliance Assessment (Eramba) | Planned — next |
 | Risk Acceptance Documentation | Planned |
-| EU AI Act Assessment | Stretch goal |
 | GRC Control Automation | Stretch goal |
 
 ---
@@ -315,7 +326,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 - [x] Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS)
 - [ ] Phase 4 — Vendor Risk Management
 - [ ] Phase 5 — Risk Acceptance Documentation
-- [ ] Phase 6 — EU AI Act Assessment *(stretch)*
+- [ ] Phase 6 — AI Compliance Assessment (Eramba)
 - [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
