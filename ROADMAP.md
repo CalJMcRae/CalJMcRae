@@ -81,41 +81,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 2 — Risk Assessment Lab `In Progress`
-
-> Walks through a structured risk assessment using NIST SP 800-30 methodology, including asset identification, threat modelling, likelihood/impact scoring, and treatment options.
-
-| | |
-|---|---|
-| **Framework** | NIST SP 800-30 |
-| **Key skill** | Structured risk analysis and treatment recommendation |
-| **Why it matters** | NIST SP 800-30 is a foundational federal risk methodology — demonstrating fluency here signals readiness for structured, defensible risk work |
-
-#### Tasks
-
-- [ ] Define scenario and scope
-- [ ] Identify assets and their business value
-- [ ] Identify threats and vulnerabilities
-- [ ] Score likelihood and impact for each risk
-- [ ] Recommend treatment options (mitigate, accept, transfer, avoid)
-- [ ] Document assumptions and residual risk
-
-#### Deliverables
-
-- `risk-assessment-lab.md` — full assessment with scoring and treatment plan
-- 3–5 min Loom walkthrough explaining your reasoning
-
-#### Resume Bullet
-
-> Conducted a structured risk assessment using NIST SP 800-30 methodology; performed asset identification, threat modelling, and likelihood/impact scoring, and recommended defensible risk treatment options.
-
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
-
----
-
-### Phase 3 — Vendor Risk Management `In Progress`
+### Phase 2 — Vendor Risk Management `In Progress`
 
 > Develops a third-party risk management process: intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
 
@@ -149,7 +115,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 
 ---
-### Phase 4 — ISO 27001 Statement of Applicability `Complete ✅`
+### Phase 3 — ISO 27001 Statement of Applicability `Complete ✅`
 
 > Produced a Statement of Applicability for a simulated 85-person cloud-native SaaS 
 > company. The hard part was not listing controls — it was justifying the exclusions 
@@ -190,7 +156,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 5 — Risk Acceptance Documentation `Not Started`
+### Phase 4 — Risk Acceptance Documentation `Not Started`
 
 > Document a formal risk acceptance for a realistic business scenario — an unpatched legacy system, a third-party integration, or a deferred control implementation. The goal is executive-level communication of a security decision.
 
@@ -224,7 +190,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 6 — EU AI Act Compliance Assessment `Stretch Goal`
+### Phase 5 — EU AI Act Compliance Assessment `Stretch Goal`
 
 > Assess a fictional AI system against the EU AI Act risk classification framework. This project directly supports an interest in AI governance and is a strong differentiator — few entry-level candidates can demonstrate it.
 
@@ -254,7 +220,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 7 — GRC Control Automation Proposal `Stretch Goal`
+### Phase 6 — GRC Control Automation Proposal `Stretch Goal`
 
 > Design an automation approach for a manual GRC control — evidence collection, periodic review, or control testing. This bridges GRC and technical implementation, showing you understand both sides.
 
@@ -282,7 +248,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 8 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
+### Phase 7 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
 
 > An end-to-end GRC engagement on a real AWS environment built for a simulated healthtech
 > startup (Meridian Health Analytics). Walks a finding from cloud misconfiguration through a
@@ -337,8 +303,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 | PCI DSS Scope Determination | Complete ✅ |
 | ISO 27001:2022 Statement of Applicability | Complete ✅ |
 | Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
-| Risk Assessment Lab (standalone) | In progress |
-| Vendor Risk Management (standalone) | In progress |
+| Vendor Risk Management | In progress |
 | Risk Acceptance Documentation | Planned |
 | EU AI Act Assessment | Stretch goal |
 | GRC Control Automation | Stretch goal |
@@ -349,13 +314,12 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 
 ### Projects
 - [x] Phase 1 — PCI DSS Scope Determination
-- [ ] Phase 2 — Risk Assessment Lab
-- [ ] Phase 3 — Vendor Risk Management
-- [x] Phase 4 — ISO 27001 Statement of Applicability
-- [ ] Phase 5 — Risk Acceptance Documentation
-- [ ] Phase 6 — EU AI Act Assessment *(stretch)*
-- [ ] Phase 7 — GRC Control Automation *(stretch)*
-- [x] Phase 8 — Cloud Risk Assessment & Remediation Lab (AWS)
+- [ ] Phase 2 — Vendor Risk Management
+- [x] Phase 3 — ISO 27001 Statement of Applicability
+- [ ] Phase 4 — Risk Acceptance Documentation
+- [ ] Phase 5 — EU AI Act Assessment *(stretch)*
+- [ ] Phase 6 — GRC Control Automation *(stretch)*
+- [x] Phase 7 — Cloud Risk Assessment & Remediation Lab (AWS)
 
 ### Certifications
 - [x] CompTIA Security+
