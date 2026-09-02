@@ -34,6 +34,8 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 ## Projects
 
+Completed projects first, then in progress, then stretch goals.
+
 ---
 
 ### Phase 1 — PCI DSS Scope Determination `Complete ✅`
@@ -56,7 +58,6 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 > Conducted PCI DSS v4.0 scope determination and network segmentation review for a simulated e-commerce environment; identified CDE boundary gaps and produced audit-ready documentation with defensible conclusions.
 
 #### Lessons Learned
-
 
 This was my first hands-on project with the PCI DSS framework, so it was a 
 learning experience from the start — which is exactly the point of this 
@@ -81,7 +82,78 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 2 — Vendor Risk Management `In Progress`
+### Phase 2 — ISO 27001 Statement of Applicability `Complete ✅`
+
+> Produced a Statement of Applicability for a simulated 85-person cloud-native SaaS 
+> company. The hard part was not listing controls — it was justifying the exclusions 
+> in a way that holds up to scrutiny.
+
+| | |
+|---|---|
+| **Framework** | ISO 27001:2022 Annex A |
+| **Key skill** | Risk-based decision making — inclusion AND exclusion rationale |
+| **Why it matters** | Auditors spend more time challenging exclusions than inclusions. Showing you can defend an exclusion is a differentiator |
+
+#### Deliverables
+
+- [Repo: ISO 27001:2022 Statement of Applicability](https://github.com/CalJMcRae/ISO-27001-SoA-Project)
+- All 93 Annex A controls assessed with risk-driven justifications
+- 10 controls excluded, 5 with full auditor-challenge defense documentation
+- Risk-to-control traceability matrix, alternative measures mapping, and evidence reference index completed
+
+#### Resume Bullet
+
+> Developed an ISO 27001:2022 Statement of Applicability for a simulated cloud-native SaaS organisation; assessed all 93 Annex A controls, documented risk-based inclusion and exclusion decisions, and produced full traceability and evidence documentation.
+
+#### Tasks
+
+- [x] Define company context: size, industry, data sensitivity, threat landscape
+- [x] List all ISO 27001:2022 Annex A controls
+- [x] For each control: include, exclude, or conditionally apply
+- [x] Document risk reasoning for every exclusion
+- [x] Flag controls where the decision is genuinely ambiguous
+- [x] Write an executive summary accessible to a non-technical board
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
+### Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
+
+> An end-to-end GRC engagement on a real AWS environment built for a simulated healthtech
+> startup (Meridian Health Analytics). Walks a finding from cloud misconfiguration through a
+> risk register, NIST CSF 2.0 mapping, and prioritised remediation to a verified fix — and
+> adds a mock vendor assessment and a SOC 2 Type II report review as independent workstreams.
+
+| | |
+|---|---|
+| **Frameworks** | NIST SP 800-30 · NIST CSF 2.0 · AICPA SOC 2 Trust Services Criteria · SIG Lite |
+| **Key skill** | Running the full risk lifecycle on live cloud infrastructure and closing the loop with evidence |
+| **Why it matters** | Most entry-level portfolios stop at documentation. Building the environment, scanning it with a real open-source tool, and implementing verified fixes shows the work can actually be done, not just written about |
+
+#### Deliverables
+
+- [Repo: GRC-AWS-Project](https://github.com/CalJMcRae/GRC-AWS-Project)
+- AWS lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with 5 documented deliberate misconfigurations and a hardened contrast tier
+- 16-risk register (2 critical, 4 high, 8 medium, 2 low) — 5 by design, 11 surfaced by an independent Prowler scan and triaged with documented keep/exclude rationale
+- NIST CSF 2.0 subcategory mapping with current-vs-target maturity ratings and a control heat map
+- Mock third-party vendor assessment: 8-domain questionnaire, weighted scorecard, executive "approve-with-conditions" memo with contractual conditions and compensating controls
+- SOC 2 Type II report review — scope, CUECs, exceptions, bridge letter — cross-checked against the vendor questionnaire
+- Prioritised remediation roadmap (0–30 / 30–90 / 90+ day windows, effort and cost per item) with 2 fixes implemented and verified in the live environment (public S3 exposure closed; IMDSv2 enforced)
+
+#### Resume Bullet
+
+> Built a multi-service AWS environment and ran an independent Prowler scan; produced a 16-risk register scored with NIST SP 800-30, mapped every risk to NIST CSF 2.0 with maturity ratings, completed a mock vendor assessment and SOC 2 Type II review, and delivered a prioritised remediation roadmap with two verified fixes implemented in the live environment.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
+### Phase 4 — Vendor Risk Management `In Progress`
 
 > Develops a third-party risk management process: intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
 
@@ -112,51 +184,9 @@ reasoning defensibly, and keep improving it as I learn.
 
 *What would you do differently? What assumptions proved wrong? What surprised you?*
 
-
-
----
-### Phase 3 — ISO 27001 Statement of Applicability `Complete ✅`
-
-> Produced a Statement of Applicability for a simulated 85-person cloud-native SaaS 
-> company. The hard part was not listing controls — it was justifying the exclusions 
-> in a way that holds up to scrutiny.
-
-| | |
-|---|---|
-| **Framework** | ISO 27001:2022 Annex A |
-| **Key skill** | Risk-based decision making — inclusion AND exclusion rationale |
-| **Why it matters** | Auditors spend more time challenging exclusions than inclusions. Showing you can defend an exclusion is a differentiator |
-
-#### Deliverables
-
-- [Repo: ISO 27001:2022 Statement of Applicability](https://github.com/CalJMcRae/ISO-27001-SoA-Project)
-- All 93 Annex A controls assessed with risk-driven justifications
-- 10 controls excluded, 5 with full auditor-challenge defense documentation
-- Risk-to-control traceability matrix, alternative measures mapping, and evidence reference index completed
-
-#### Resume Bullet
-
-> Developed an ISO 27001:2022 Statement of Applicability for a simulated cloud-native SaaS organisation; assessed all 93 Annex A controls, documented risk-based inclusion and exclusion decisions, and produced full traceability and evidence documentation.
-
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
-
-
-#### Tasks
-
-- [x] Define company context: size, industry, data sensitivity, threat landscape
-- [x] List all ISO 27001:2022 Annex A controls
-- [x] For each control: include, exclude, or conditionally apply
-- [x] Document risk reasoning for every exclusion
-- [x] Flag controls where the decision is genuinely ambiguous
-- [x] Write an executive summary accessible to a non-technical board
-
-
-
 ---
 
-### Phase 4 — Risk Acceptance Documentation `Not Started`
+### Phase 5 — Risk Acceptance Documentation `Not Started`
 
 > Document a formal risk acceptance for a realistic business scenario — an unpatched legacy system, a third-party integration, or a deferred control implementation. The goal is executive-level communication of a security decision.
 
@@ -190,7 +220,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 5 — EU AI Act Compliance Assessment `Stretch Goal`
+### Phase 6 — EU AI Act Compliance Assessment `Stretch Goal`
 
 > Assess a fictional AI system against the EU AI Act risk classification framework. This project directly supports an interest in AI governance and is a strong differentiator — few entry-level candidates can demonstrate it.
 
@@ -220,7 +250,7 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 6 — GRC Control Automation Proposal `Stretch Goal`
+### Phase 7 — GRC Control Automation Proposal `Stretch Goal`
 
 > Design an automation approach for a manual GRC control — evidence collection, periodic review, or control testing. This bridges GRC and technical implementation, showing you understand both sides.
 
@@ -245,39 +275,6 @@ reasoning defensibly, and keep improving it as I learn.
 #### Resume Bullet
 
 > Designed a GRC control automation proposal for [control type]; documented current-state manual process, proposed automation architecture, and trade-offs including failure modes and coverage gaps.
-
----
-
-### Phase 7 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
-
-> An end-to-end GRC engagement on a real AWS environment built for a simulated healthtech
-> startup (Meridian Health Analytics). Walks a finding from cloud misconfiguration through a
-> risk register, NIST CSF 2.0 mapping, and prioritised remediation to a verified fix — and
-> adds a mock vendor assessment and a SOC 2 Type II report review as independent workstreams.
-
-| | |
-|---|---|
-| **Frameworks** | NIST SP 800-30 · NIST CSF 2.0 · AICPA SOC 2 Trust Services Criteria · SIG Lite |
-| **Key skill** | Running the full risk lifecycle on live cloud infrastructure and closing the loop with evidence |
-| **Why it matters** | Most entry-level portfolios stop at documentation. Building the environment, scanning it with a real open-source tool, and implementing verified fixes shows the work can actually be done, not just written about |
-
-#### Deliverables
-
-- [Repo: GRC-AWS-Project](https://github.com/CalJMcRae/GRC-AWS-Project)
-- AWS lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with 5 documented deliberate misconfigurations and a hardened contrast tier
-- 16-risk register (2 critical, 4 high, 8 medium, 2 low) — 5 by design, 11 surfaced by an independent Prowler scan and triaged with documented keep/exclude rationale
-- NIST CSF 2.0 subcategory mapping with current-vs-target maturity ratings and a control heat map
-- Mock third-party vendor assessment: 8-domain questionnaire, weighted scorecard, executive "approve-with-conditions" memo with contractual conditions and compensating controls
-- SOC 2 Type II report review — scope, CUECs, exceptions, bridge letter — cross-checked against the vendor questionnaire
-- Prioritised remediation roadmap (0–30 / 30–90 / 90+ day windows, effort and cost per item) with 2 fixes implemented and verified in the live environment (public S3 exposure closed; IMDSv2 enforced)
-
-#### Resume Bullet
-
-> Built a multi-service AWS environment and ran an independent Prowler scan; produced a 16-risk register scored with NIST SP 800-30, mapped every risk to NIST CSF 2.0 with maturity ratings, completed a mock vendor assessment and SOC 2 Type II review, and delivered a prioritised remediation roadmap with two verified fixes implemented in the live environment.
-
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
 
 ---
 
@@ -314,12 +311,12 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 
 ### Projects
 - [x] Phase 1 — PCI DSS Scope Determination
-- [ ] Phase 2 — Vendor Risk Management
-- [x] Phase 3 — ISO 27001 Statement of Applicability
-- [ ] Phase 4 — Risk Acceptance Documentation
-- [ ] Phase 5 — EU AI Act Assessment *(stretch)*
-- [ ] Phase 6 — GRC Control Automation *(stretch)*
-- [x] Phase 7 — Cloud Risk Assessment & Remediation Lab (AWS)
+- [x] Phase 2 — ISO 27001 Statement of Applicability
+- [x] Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS)
+- [ ] Phase 4 — Vendor Risk Management
+- [ ] Phase 5 — Risk Acceptance Documentation
+- [ ] Phase 6 — EU AI Act Assessment *(stretch)*
+- [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
 - [x] CompTIA Security+
