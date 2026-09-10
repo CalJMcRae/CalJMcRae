@@ -116,7 +116,11 @@ reasoning defensibly, and keep improving it as I learn.
 
 #### Lessons Learned
 
-*What would you do differently? What assumptions proved wrong? What surprised you?*
+**What surprised me, and what kept the work honest.** Going in, I expected ISO 27001 to reward comprehensive coverage: include every control and claim everything is implemented. The standard's own guidance corrected that. A footnote made the point that certification is not about blanket compliance but about applying practical, relevant security controls, and that reframed the whole exercise. It kept me honest with the implementation status, 61 Implemented, 20 Partial, 2 Planned rather than a wall of green, and it made me ask "is this control actually relevant here?" for every Annex A control rather than defaulting to include.
+
+**The exclusions were more straightforward than I expected, for a specific reason.** All five documented exclusions were relatively easy to defend because the company is cloud-native. The physical and premises controls, such as securing offices and the physical protection of confidential information, were the natural candidates. My first instinct was that some physical safeguards would still be needed wherever confidential information could be handled, but ISO 27001:2022 treats Annex A as a set of controls to consider against actual risk, and with endpoint management and an Acceptable Use Policy already addressing that risk, excluding the premises controls held up.
+
+**What I would keep.** The risk-to-control traceability matrix was the most useful part as a learning tool. Mapping every applicable control back to a specific risk forced me to read all 93 controls and understand what each one is and why it exists, rather than skimming the familiar ones. That is the part of the process I would repeat on any future framework.
 
 ---
 
@@ -149,7 +153,13 @@ reasoning defensibly, and keep improving it as I learn.
 
 #### Lessons Learned
 
-*What would you do differently? What assumptions proved wrong? What surprised you?*
+This is the most comprehensive and multifaceted project in my portfolio so far. It runs a full risk lifecycle (build, scan, register, framework mapping, remediation, verification) plus two independent workstreams (a vendor assessment and a SOC 2 review), and most of the lessons below come from that breadth.
+
+**What I would do differently.** Set up broad read-only permissions for the scanning identity before starting the risk assessment rather than during it. I hit repeated access-denied walls mid-Phase-2 and could not read account-level Block Public Access, list buckets, or check KMS key rotation. I would also build a lightweight Terraform version alongside the console build. Building by hand meant no reproducible teardown, and every remediation had to be clicked and screenshotted rather than diffed. And I would run Prowler with the instances actually running, since the scan reported the SSH port as "no public IP" only because the box was stopped, which understated a real exposure.
+
+**Assumptions that proved wrong.** I read Prowler's "critical" flag on the root account as "root has no MFA." It has virtual MFA, and only the hardware-MFA check failed. I rescored that risk from High to Medium once I checked the specific finding rather than the severity label. I assumed a genuine public sample SOC 2 report would be easy to find, but every one was a locked PDF, so I pivoted to the AICPA illustrative report. I also assumed that running a scanner would let me claim "GRC tools" on a resume. It does not. To a hiring manager that phrase means the dedicated platforms.
+
+**What surprised me.** How much of the risk assessment was triage judgment rather than analysis. It went from 116 Prowler failures to 16 risks, and the defensible part was documenting why roughly 100 were excluded, not scoring the 16. How readily related findings collapse: about fourteen separate CloudWatch checks are really one "no monitoring" risk. And that the strongest piece of work was unplanned. The cross-check between the vendor questionnaire and the SOC 2 report surfaced a discrepancy, where the vendor claimed annual access reviews but the report tested quarterly, that only existed because I did both phases. The weakest link is the opposite: the vendor answers and the SOC 2 report are self-authored, so they show I know the structure, not that I have handled a real evasive vendor.
 
 ---
 
