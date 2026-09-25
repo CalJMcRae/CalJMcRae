@@ -44,22 +44,29 @@ Built a risk-driven Statement of Applicability for a simulated 85-person cloud-n
 
 ### [Cloud Risk Assessment & Remediation Lab (AWS)](https://github.com/CalJMcRae/GRC-AWS-Project)
 
-End-to-end GRC engagement on a purpose-built AWS environment for a simulated healthtech startup. Built a multi-service lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with deliberate misconfigurations, then ran an independent Prowler scan and triaged 116 findings into a 16-risk register (2 critical, 4 high) scored with NIST SP 800-30. Mapped every risk to NIST CSF 2.0 subcategories with current-vs-target maturity, ran a mock third-party vendor assessment (questionnaire, weighted scorecard, approve-with-conditions memo) and a SOC 2 Type II report review cross-checked against it, then delivered a prioritised remediation roadmap and implemented and verified two of the highest-priority fixes in the live environment — closing a critical public-S3 exposure and enforcing IMDSv2.
+End-to-end GRC engagement on a purpose-built AWS environment for a simulated healthtech startup. Built a multi-service lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with deliberate misconfigurations, then ran an independent Prowler scan and triaged 116 findings into a 16-risk register (2 critical, 4 high) scored with NIST SP 800-30. Mapped every risk to NIST CSF 2.0 subcategories with current-vs-target maturity, ran a mock third-party vendor assessment (questionnaire, weighted scorecard, approve-with-conditions memo) and a SOC 2 Type II report review cross-checked against it, then delivered a prioritised remediation roadmap and implemented and verified two of the highest-priority fixes in the live environment, closing a critical public-S3 exposure and enforcing IMDSv2.
+
+### [AI Compliance Assessment (Eramba)](https://github.com/CalJMcRae/AI-Compliance-Project)
+
+Assessed a simulated clinical AI system against the EU AI Act and NIST AI RMF, classifying it as high-risk through a genuinely contested regulatory question (Annex III scope versus the medical-device route). Built an 18-control catalogue and a 10-risk register in Eramba, an open-source GRC platform self-hosted via Docker, then built and trained a real machine-learning model on AWS to test the assessment against actual evidence rather than design intent alone. The evaluation confirmed a critical fairness risk with measured data (the model understated risk for a disadvantaged subgroup by roughly nine times the gap seen elsewhere, despite balanced accuracy) and surfaced a new finding, model overfitting, that a paper-only assessment would have missed. Delivered a phased treatment plan and a documented recommendation not to deploy until the confirmed risks are resolved.
 
 ---
 
 ## Skills
 
 **Frameworks & Standards**
-PCI DSS · NIST CSF 2.0 · ISO 27001 · NIST SP 800-30 · SOC 2 (AICPA TSC) · HIPAA
+PCI DSS · NIST CSF 2.0 · ISO 27001 · NIST SP 800-30 · SOC 2 (AICPA TSC) · HIPAA ·
+EU AI Act · NIST AI RMF 1.0
 
 **GRC Competencies**
 Risk Analysis & Assessment · Cloud Security Posture Review · Control Gap Analysis ·
-Remediation Planning · Security Policy Drafting · Vendor Risk Management · Audit Preparation
+Remediation Planning · Security Policy Drafting · Vendor Risk Management · Audit Preparation ·
+AI Governance & Risk Classification
 
 **Tools & Platforms**
-AWS (VPC, EC2, S3, IAM, CloudTrail, KMS) · Prowler (cloud security scanner) · Git / GitHub ·
-Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools and Prompting
+AWS (VPC, EC2, S3, IAM, CloudTrail, KMS, SageMaker) · Eramba (GRC platform) ·
+Prowler (cloud security scanner) · Git / GitHub · Excel / Google Sheets (Risk Registers) ·
+Documentation & Reporting · AI Tools and Prompting
 
 ---
 

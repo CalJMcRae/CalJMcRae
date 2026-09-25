@@ -230,7 +230,7 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
-### Phase 6 — AI Compliance Assessment (Eramba) `Not Started`
+### Phase 6 — AI Compliance Assessment (Eramba) `Complete ✅`
 
 > Assess a simulated AWS-hosted clinical-risk ML model against the EU AI Act and the NIST AI RMF, and run the whole assessment inside a real GRC platform (Eramba Community). Scenario: Meridian Health Analytics deploys a model that scores partner-clinic patient cohorts for elevated ("rising") health risk and surfaces the scores to clinicians, trained on the de-identified data from the Phase 3 lab. The hard part is twofold — interpreting emerging AI regulation where the classification itself is genuinely contested, and operationalising that judgement as a control catalogue, risk register and treatment plan a reviewer could actually work from.
 
@@ -243,16 +243,16 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Tasks
 
-- [ ] Stand up Eramba Community (Docker) and configure the organisation, framework and asset structure
-- [ ] Define the AI system: purpose, inputs, outputs, users, affected persons, lifecycle stage, hosting, third-party model components
-- [ ] Classify the system under the EU AI Act (prohibited / high-risk / limited / minimal); document the reasoning and the genuine ambiguity — clinical decision-support vs autonomous decision, and the medical-device (MDR) interplay
-- [ ] Map applicable EU AI Act obligations to the system (if high-risk: risk-management system, data governance, technical documentation, logging and record-keeping, transparency, human oversight, accuracy / robustness / cybersecurity, post-market monitoring)
-- [ ] Build a combined control catalogue in Eramba: EU AI Act obligations plus NIST AI RMF (Govern / Map / Measure / Manage) subcategories
-- [ ] Build the AI risk register in Eramba — bias and fairness, data quality, model drift, explainability, misuse, security, human-oversight failure, supply-chain (third-party model) — with likelihood / impact scoring
-- [ ] Run the assessment in Eramba: control status, gaps, owners
-- [ ] Document a treatment plan for each gap, with residual risk stated
-- [ ] Overlay an ISO/IEC 42001 gap check (optional)
-- [ ] Write the executive classification and gap-analysis report; state where the regulation is unclear and how the ambiguity was resolved
+- [x] Stand up Eramba Community (Docker) and configure the organisation, framework and asset structure
+- [x] Define the AI system: purpose, inputs, outputs, users, affected persons, lifecycle stage, hosting, third-party model components
+- [x] Classify the system under the EU AI Act (prohibited / high-risk / limited / minimal); document the reasoning and the genuine ambiguity, clinical decision-support vs autonomous decision, and the medical-device (MDR) interplay
+- [x] Map applicable EU AI Act obligations to the system (if high-risk: risk-management system, data governance, technical documentation, logging and record-keeping, transparency, human oversight, accuracy / robustness / cybersecurity, post-market monitoring)
+- [x] Build a combined control catalogue in Eramba: EU AI Act obligations plus NIST AI RMF (Govern / Map / Measure / Manage) subcategories
+- [x] Build the AI risk register in Eramba, bias and fairness, data quality, model drift, explainability, misuse, security, human-oversight failure, supply-chain (third-party model), with likelihood / impact scoring
+- [x] Run the assessment in Eramba: control status, gaps, owners
+- [x] Document a treatment plan for each gap, with residual risk stated
+- [x] Build and evaluate a real minimal model on AWS (SageMaker), confirming one risk with measured evidence and surfacing a new one, then tear it down
+- [x] Write the executive classification and gap-analysis report; state where the regulation is unclear and how the ambiguity was resolved
 
 #### Deliverables
 
@@ -263,7 +263,7 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Resume Bullet
 
-> Assessed a simulated AWS-hosted clinical-risk ML model against the EU AI Act and NIST AI RMF; classified it under the AI Act risk tiers, built the combined control catalogue and AI risk register in Eramba (open-source GRC platform), and produced a gap analysis with prioritised treatment plans and residual-risk sign-off.
+> Assessed a clinical AI system against the EU AI Act and NIST AI RMF, classifying it as high-risk through a genuinely contested regulatory question; built the control catalogue, 10-risk register and gap analysis in Eramba (open-source GRC platform); then built and evaluated a real machine-learning model on AWS to test the assessment against actual evidence, confirming a critical fairness risk with measured data and surfacing a new finding a design-only review would have missed.
 
 #### Lessons Learned
 
@@ -321,8 +321,8 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 | PCI DSS Scope Determination | Complete ✅ |
 | ISO 27001:2022 Statement of Applicability | Complete ✅ |
 | Cloud Risk Assessment & Remediation Lab (AWS) | Complete ✅ |
+| AI Compliance Assessment (Eramba) | Complete ✅ |
 | Vendor Risk Management | In progress |
-| AI Compliance Assessment (Eramba) | Planned — next |
 | Risk Acceptance Documentation | Planned |
 | GRC Control Automation | Stretch goal |
 
@@ -336,7 +336,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 - [x] Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS)
 - [ ] Phase 4 — Vendor Risk Management
 - [ ] Phase 5 — Risk Acceptance Documentation
-- [ ] Phase 6 — AI Compliance Assessment (Eramba)
+- [x] Phase 6 — AI Compliance Assessment (Eramba)
 - [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
