@@ -230,7 +230,7 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
-### Phase 6 — AI Compliance Assessment (Eramba) `Complete ✅`
+### Phase 6: AI Compliance Assessment (Eramba) `Complete ✅`
 
 > Assess a simulated AWS-hosted clinical-risk ML model against the EU AI Act and the NIST AI RMF, and run the whole assessment inside a real GRC platform (Eramba Community). Scenario: Meridian Health Analytics deploys a model that scores partner-clinic patient cohorts for elevated ("rising") health risk and surfaces the scores to clinicians, trained on the de-identified data from the Phase 3 lab. The hard part is twofold — interpreting emerging AI regulation where the classification itself is genuinely contested, and operationalising that judgement as a control catalogue, risk register and treatment plan a reviewer could actually work from.
 
@@ -336,7 +336,7 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 - [x] Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS)
 - [ ] Phase 4 — Vendor Risk Management
 - [ ] Phase 5 — Risk Acceptance Documentation
-- [x] Phase 6 — AI Compliance Assessment (Eramba)
+- [x] Phase 6: AI Compliance Assessment (Eramba)
 - [ ] Phase 7 — GRC Control Automation *(stretch)*
 
 ### Certifications
