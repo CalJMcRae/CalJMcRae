@@ -7,14 +7,14 @@
 
 ## Objective
 
-This portfolio demonstrates applied GRC competency — not checkbox compliance, but defensible decision-making under realistic constraints. The goal is a collection of 3–5 high-quality projects that prove readiness for a GRC Analyst role, each showing how I think through risk, not just document it.
+This portfolio demonstrates applied GRC competency, not checkbox compliance, but defensible decision-making under realistic constraints. The goal is a collection of 3-5 high-quality projects that prove readiness for a GRC Analyst role, each showing how I think through risk, not just document it.
 
 **Target audience:** Hiring managers and technical reviewers at organisations with structured GRC functions, particularly in private sector or federal-adjacent environments.
 
 ### What every project must demonstrate
 
 - Defensible decisions backed by documented assumptions
-- Clear trade-off analysis — what was accepted and why
+- Clear trade-off analysis: what was accepted and why
 - Residual risk acknowledgment
 - Communication accessible to both technical and non-technical stakeholders
 
@@ -24,7 +24,7 @@ This portfolio demonstrates applied GRC competency — not checkbox compliance, 
 
 | Principle | Detail |
 |---|---|
-| Depth over breadth | 2–3 excellent projects outperform 6 shallow ones |
+| Depth over breadth | 2-3 excellent projects outperform 6 shallow ones |
 | Defensibility first | Every decision must survive audit-style scrutiny |
 | Show the thinking | Assumptions, trade-offs, and residual risk are mandatory in every deliverable |
 | Format standard | All deliverables in Markdown: Context → Analysis → Decision → Residual Risk |
@@ -38,15 +38,15 @@ Completed projects first, then in progress, then stretch goals.
 
 ---
 
-### Phase 1 — PCI DSS Scope Determination `Complete ✅`
+### Phase 1: PCI DSS Scope Determination `Complete ✅`
 
-> Simulated a scope determination and network segmentation review for an e-commerce environment handling cardholder data. The challenge is not just identifying gaps — it is defending your conclusions the way an auditor would challenge them.
+> Simulated a scope determination and network segmentation review for an e-commerce environment handling cardholder data. The challenge is not just identifying gaps, it is defending your conclusions the way an auditor would challenge them.
 
 | | |
 |---|---|
 | **Framework** | PCI DSS v4.0 |
 | **Key skill** | Defending technical claims under audit pressure |
-| **Why it matters** | Segmentation is one of the most contested areas in PCI assessments — showing you can reason through it signals audit readiness |
+| **Why it matters** | Segmentation is one of the most contested areas in PCI assessments, and showing you can reason through it signals audit readiness |
 
 #### Deliverables
 
@@ -60,7 +60,7 @@ Completed projects first, then in progress, then stretch goals.
 #### Lessons Learned
 
 This was my first hands-on project with the PCI DSS framework, so it was a 
-learning experience from the start — which is exactly the point of this 
+learning experience from the start, which is exactly the point of this 
 portfolio. Working through it pushed my understanding of PCI DSS beyond 
 surface-level familiarity and gave me the vocabulary and reasoning process 
 to meaningfully contribute to a real PCI DSS audit conversation in the 
@@ -69,29 +69,29 @@ future.
 Beyond the framework itself, it reinforced why controls like segmentation, 
 technology dependency mapping, and data privacy matter in practice, not 
 just on paper. What surprised me most was how much of the difficulty was 
-in defending a conclusion rather than reaching one — an auditor doesn't 
+in defending a conclusion rather than reaching one: an auditor doesn't 
 just want the right answer, they want to see the reasoning survive 
 challenge.
 
 If I revisited this project, I'd spend more time stress-testing my own 
 assumptions before writing the final conclusion, rather than after. I 
-don't consider this a finished or fully audit-grade piece of work yet — 
+don't consider this a finished or fully audit-grade piece of work yet, 
 but it demonstrates the thing I think matters most at this stage: the 
 ability to reason through a real compliance scenario, document that 
 reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 2 — ISO 27001 Statement of Applicability `Complete ✅`
+### Phase 2: ISO 27001 Statement of Applicability `Complete ✅`
 
 > Produced a Statement of Applicability for a simulated 85-person cloud-native SaaS 
-> company. The hard part was not listing controls — it was justifying the exclusions 
+> company. The hard part was not listing controls, it was justifying the exclusions 
 > in a way that holds up to scrutiny.
 
 | | |
 |---|---|
 | **Framework** | ISO 27001:2022 Annex A |
-| **Key skill** | Risk-based decision making — inclusion AND exclusion rationale |
+| **Key skill** | Risk-based decision making: inclusion AND exclusion rationale |
 | **Why it matters** | Auditors spend more time challenging exclusions than inclusions. Showing you can defend an exclusion is a differentiator |
 
 #### Deliverables
@@ -124,11 +124,11 @@ reasoning defensibly, and keep improving it as I learn.
 
 ---
 
-### Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
+### Phase 3: Cloud Risk Assessment & Remediation Lab (AWS) `Complete ✅`
 
 > An end-to-end GRC engagement on a real AWS environment built for a simulated healthtech
 > startup (Meridian Health Analytics). Walks a finding from cloud misconfiguration through a
-> risk register, NIST CSF 2.0 mapping, and prioritised remediation to a verified fix — and
+> risk register, NIST CSF 2.0 mapping, and prioritised remediation to a verified fix, and
 > adds a mock vendor assessment and a SOC 2 Type II report review as independent workstreams.
 
 | | |
@@ -141,11 +141,11 @@ reasoning defensibly, and keep improving it as I learn.
 
 - [Repo: GRC-AWS-Project](https://github.com/CalJMcRae/GRC-AWS-Project)
 - AWS lab (VPC, EC2, S3, IAM, CloudTrail, KMS) with 5 documented deliberate misconfigurations and a hardened contrast tier
-- 16-risk register (2 critical, 4 high, 8 medium, 2 low) — 5 by design, 11 surfaced by an independent Prowler scan and triaged with documented keep/exclude rationale
+- 16-risk register (2 critical, 4 high, 8 medium, 2 low): 5 by design, 11 surfaced by an independent Prowler scan and triaged with documented keep/exclude rationale
 - NIST CSF 2.0 subcategory mapping with current-vs-target maturity ratings and a control heat map
 - Mock third-party vendor assessment: 8-domain questionnaire, weighted scorecard, executive "approve-with-conditions" memo with contractual conditions and compensating controls
-- SOC 2 Type II report review — scope, CUECs, exceptions, bridge letter — cross-checked against the vendor questionnaire
-- Prioritised remediation roadmap (0–30 / 30–90 / 90+ day windows, effort and cost per item) with 2 fixes implemented and verified in the live environment (public S3 exposure closed; IMDSv2 enforced)
+- SOC 2 Type II report review (scope, CUECs, exceptions, bridge letter), cross-checked against the vendor questionnaire
+- Prioritised remediation roadmap (0-30 / 30-90 / 90+ day windows, effort and cost per item) with 2 fixes implemented and verified in the live environment (public S3 exposure closed; IMDSv2 enforced)
 
 #### Resume Bullet
 
@@ -163,7 +163,7 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
-### Phase 4 — Vendor Risk Management `In Progress`
+### Phase 4: Vendor Risk Management `In Progress`
 
 > Develops a third-party risk management process: intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
 
@@ -183,8 +183,8 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Deliverables
 
-- `vendor-risk-management.md` — full process documentation
-- 3–5 min Loom walkthrough
+- `vendor-risk-management.md`: full process documentation
+- 3-5 min Loom walkthrough
 
 #### Resume Bullet
 
@@ -196,14 +196,14 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
-### Phase 5 — Risk Acceptance Documentation `Not Started`
+### Phase 5: Risk Acceptance Documentation `Not Started`
 
-> Document a formal risk acceptance for a realistic business scenario — an unpatched legacy system, a third-party integration, or a deferred control implementation. The goal is executive-level communication of a security decision.
+> Document a formal risk acceptance for a realistic business scenario: an unpatched legacy system, a third-party integration, or a deferred control implementation. The goal is executive-level communication of a security decision.
 
 | | |
 |---|---|
 | **Framework** | NIST SP 800-30 / general GRC practice |
-| **Key skill** | Executive communication — translating technical risk into business language |
+| **Key skill** | Executive communication: translating technical risk into business language |
 | **Why it matters** | Most GRC work involves getting sign-off from people who don't speak security. This project proves you can bridge that gap |
 
 #### Tasks
@@ -217,8 +217,8 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Deliverables
 
-- `risk-acceptance.md` — formal risk acceptance memo
-- 3–5 min Loom walkthrough explaining the business context and your reasoning
+- `risk-acceptance.md`: formal risk acceptance memo
+- 3-5 min Loom walkthrough explaining the business context and your reasoning
 
 #### Resume Bullet
 
@@ -232,12 +232,12 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ### Phase 6: AI Compliance Assessment (Eramba) `Complete ✅`
 
-> Assess a simulated AWS-hosted clinical-risk ML model against the EU AI Act and the NIST AI RMF, and run the whole assessment inside a real GRC platform (Eramba Community). Scenario: Meridian Health Analytics deploys a model that scores partner-clinic patient cohorts for elevated ("rising") health risk and surfaces the scores to clinicians, trained on the de-identified data from the Phase 3 lab. The hard part is twofold — interpreting emerging AI regulation where the classification itself is genuinely contested, and operationalising that judgement as a control catalogue, risk register and treatment plan a reviewer could actually work from.
+> Assess a simulated AWS-hosted clinical-risk ML model against the EU AI Act and the NIST AI RMF, and run the whole assessment inside a real GRC platform (Eramba Community). Scenario: Meridian Health Analytics deploys a model that scores partner-clinic patient cohorts for elevated ("rising") health risk and surfaces the scores to clinicians, trained on the de-identified data from the Phase 3 lab. The hard part is twofold: interpreting emerging AI regulation where the classification itself is genuinely contested, and operationalising that judgement as a control catalogue, risk register and treatment plan a reviewer could actually work from.
 
 | | |
 |---|---|
 | **Frameworks** | EU AI Act (2024) · NIST AI RMF 1.0 · ISO/IEC 42001:2023 (overlay) |
-| **Tool** | Eramba Community Edition — open-source GRC platform, self-hosted via Docker (free) |
+| **Tool** | Eramba Community Edition, an open-source GRC platform self-hosted via Docker (free) |
 | **Key skill** | Interpreting ambiguous AI regulation and operationalising it in a GRC platform, not just a document |
 | **Why it matters** | AI governance is a fast-growing compliance area few entry-level candidates can demonstrate; doing it in a recognised GRC tool rather than a Word doc is a second differentiator |
 
@@ -256,10 +256,10 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Deliverables
 
-- `ai-compliance-assessment.md` — classification report, gap analysis, treatment plan, residual-risk sign-off
-- Eramba exports / screenshots — AI control catalogue, risk register, assessment, treatment plans
+- `ai-compliance-assessment.md`: classification report, gap analysis, treatment plan, residual-risk sign-off
+- Eramba exports / screenshots: AI control catalogue, risk register, assessment, treatment plans
 - AI system data-flow diagram
-- 3–5 min Loom walkthrough — lead with the classification decision and the ambiguity
+- 3-5 min Loom walkthrough, leading with the classification decision and the ambiguity
 
 #### Resume Bullet
 
@@ -271,13 +271,13 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
-### Phase 7 — GRC Control Automation Proposal `Stretch Goal`
+### Phase 7: GRC Control Automation Proposal `Stretch Goal`
 
-> Design an automation approach for a manual GRC control — evidence collection, periodic review, or control testing. This bridges GRC and technical implementation, showing you understand both sides.
+> Design an automation approach for a manual GRC control: evidence collection, periodic review, or control testing. This bridges GRC and technical implementation, showing you understand both sides.
 
 | | |
 |---|---|
-| **Framework** | Agnostic — applies to any standard |
+| **Framework** | Agnostic, applies to any standard |
 | **Key skill** | Connecting compliance requirements to technical implementation |
 | **Why it matters** | Employers increasingly want GRC professionals who can work with engineering teams, not just produce documentation |
 
@@ -291,7 +291,7 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 #### Deliverables
 
-- `automation-proposal.md` — design document with trade-off analysis
+- `automation-proposal.md`: design document with trade-off analysis
 
 #### Resume Bullet
 
@@ -299,15 +299,54 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
+### Phase 8: IAM & Access Control Audit `Complete ✅`
+
+> Suggested by a mentor rather than part of the original seven-phase plan above, added here because it is a real, substantial project rather than left to sit outside the roadmap. An ITGC-style audit of identity and access management for Meridian Health Analytics (the same company as Phases 3 and 6, now grown to 210 employees), covering provisioning, deprovisioning, privileged access management, MFA enforcement, access reviews, joiner/mover/leaver, and change management on Microsoft 365 / Entra ID.
+
+| | |
+|---|---|
+| **Framework** | ITGC methodology / general GRC practice |
+| **Key skill** | Designing and executing a control test plan (pass/fail criteria and sampling method fixed before evidence is examined) and tracing findings back to a shared root cause |
+| **Why it matters** | Identity and access management is one of the most commonly audited control domains in any organisation, and most entry-level portfolios do not show a full test-to-remediation-to-ticket lifecycle |
+
+#### Tasks
+
+- [x] Define the company scenario, identity environment, and Conditional Access policies
+- [x] Build population data: 210 active and 25 terminated employees, a privileged account roster, and service accounts, with deliberately seeded control gaps
+- [x] Define 14 testable controls across the 7 required areas, with pass/fail criteria and sampling method fixed before testing
+- [x] Test every control area: full population where the data allowed it, a judgmental sample where it did not
+- [x] Consolidate testing results into a findings register, scored with Likelihood x Impact
+- [x] Build a phased remediation tracker, grouping findings that share a root cause
+- [x] Convert the remediation plan into Jira-style tickets
+- [x] Write the project README summarising scenario, approach, results, and limitations
+
+#### Deliverables
+
+- [Repo: IAM-Access-Control-Audit](https://github.com/CalJMcRae/IAM-Access-Control-Audit)
+- 14-control test plan with pass/fail criteria and sampling methodology fixed before testing
+- Full testing evidence across all 7 control areas (provisioning, deprovisioning, privileged access, MFA enforcement, access reviews, joiner/mover/leaver, change management)
+- 17-finding register (5 critical, 5 high, 5 medium, 2 low), including 3 incidental findings outside the original control matrix
+- Phased remediation tracker (13 items, 0-30/30-90 day windows) and 24 Jira-style tickets
+
+#### Resume Bullet
+
+> Conducted an ITGC-style audit of identity and access management for a simulated 210-person Microsoft 365 / Entra ID environment; designed a 14-control test plan with sampling methodology fixed before testing, produced a 17-finding register, traced multiple critical findings to a shared root cause in change management, and delivered a phased remediation plan converted into Jira-style tickets.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
 ## Portfolio Presentation Standards
 
-The Loom walkthroughs are not optional extras — they are a core part of this portfolio. A document proves you can write. A walkthrough proves you can communicate. For an entry-level GRC role, being able to explain your reasoning out loud is exactly the skill being tested.
+The Loom walkthroughs are not optional extras, they are a core part of this portfolio. A document proves you can write. A walkthrough proves you can communicate. For an entry-level GRC role, being able to explain your reasoning out loud is exactly the skill being tested.
 
 **For each completed project:**
 
-- Record a 3–5 minute Loom walkthrough
+- Record a 3-5 minute Loom walkthrough
 - Lead with the scenario and what made it challenging
-- Walk through your key decisions — not the whole document
+- Walk through your key decisions, not the whole document
 - Explicitly call out the trade-offs you faced
 - End with what you would do differently or what you are still uncertain about
 - Add the Loom link to the project README
@@ -325,19 +364,21 @@ The Loom walkthroughs are not optional extras — they are a core part of this p
 | Vendor Risk Management | In progress |
 | Risk Acceptance Documentation | Planned |
 | GRC Control Automation | Stretch goal |
+| IAM & Access Control Audit (mentor-assigned) | Complete ✅ |
 
 ---
 
 ## Progress Tracker
 
 ### Projects
-- [x] Phase 1 — PCI DSS Scope Determination
-- [x] Phase 2 — ISO 27001 Statement of Applicability
-- [x] Phase 3 — Cloud Risk Assessment & Remediation Lab (AWS)
-- [ ] Phase 4 — Vendor Risk Management
-- [ ] Phase 5 — Risk Acceptance Documentation
+- [x] Phase 1: PCI DSS Scope Determination
+- [x] Phase 2: ISO 27001 Statement of Applicability
+- [x] Phase 3: Cloud Risk Assessment & Remediation Lab (AWS)
+- [ ] Phase 4: Vendor Risk Management
+- [ ] Phase 5: Risk Acceptance Documentation
 - [x] Phase 6: AI Compliance Assessment (Eramba)
-- [ ] Phase 7 — GRC Control Automation *(stretch)*
+- [ ] Phase 7: GRC Control Automation *(stretch)*
+- [x] Phase 8: IAM & Access Control Audit *(mentor-assigned)*
 
 ### Certifications
 - [x] CompTIA Security+
@@ -355,7 +396,7 @@ Run this against every deliverable before publishing.
 
 - [ ] Have I justified every significant decision?
 - [ ] Are all assumptions documented explicitly?
-- [ ] Have I explained trade-offs — what I chose and what I gave up?
+- [ ] Have I explained trade-offs: what I chose and what I gave up?
 - [ ] Is residual risk acknowledged?
 - [ ] Would this survive audit-style challenge?
 - [ ] Can a non-technical executive understand the key points?

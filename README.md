@@ -2,7 +2,7 @@
 
 🎯 GRC Analyst | Risk Management | Security Compliance | AI Governance
 
-I'm transitioning into cybersecurity from a background in Professional Sports and sociology with a focused interest in GRC — governance, risk, and compliance. These projects are how I'm building that expertise in public: applying frameworks like NIST CSF, ISO 27001, and PCI DSS to realistic scenarios, and developing the practical skills that sit behind the certifications.
+I'm transitioning into cybersecurity from a background in Professional Sports and sociology with a focused interest in GRC (governance, risk, and compliance). These projects are how I'm building that expertise in public: applying frameworks like NIST CSF, ISO 27001, and PCI DSS to realistic scenarios, and developing the practical skills that sit behind the certifications.
 
 I'm currently a GRC Analyst at Bloom Support Group, 
 a micro company where I wear multiple hats in strengthening our security 
@@ -10,9 +10,9 @@ and compliance posture, including:
 
 - Identifying organizational risks and developing practical fixes to 
   remediate them, keeping the company aligned with compliance requirements
-- Uncovered gaps in data storage security and client privacy protections — 
+- Uncovered gaps in data storage security and client privacy protections, 
   particularly important given Bloom's work supporting individuals with 
-  disabilities — and implemented fixes to close them
+  disabilities, and implemented fixes to close them
 - Conducting risk assessments and maintaining the risk register
 - Supporting audits and ensuring compliance with frameworks such as 
   NIST CSF / ISO 27001, and Privacy Impact Assessments under the 
@@ -24,8 +24,8 @@ and compliance posture, including:
 - Monitoring control effectiveness and tracking remediation from 
   identification through resolution
 
-Working at a micro company means I'm involved end-to-end — from spotting 
-a risk to implementing the fix — giving me a well-rounded, hands-on 
+Working at a micro company means I'm involved end-to-end, from spotting 
+a risk to implementing the fix, giving me a well-rounded, hands-on 
 understanding of how governance frameworks translate into real-world 
 security operations, especially when protecting a vulnerable client base.
   
@@ -36,11 +36,11 @@ security operations, especially when protecting a vulnerable client base.
 
 ### [PCI DSS Scope Determination](https://github.com/CalJMcRae/pci-dss-scope-project)
 
-Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0 — identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
+Assessed network segmentation for a simulated e-commerce environment under PCI DSS v4.0, identifying CDE boundaries, shared service dependencies, and segmentation gaps across eight findings with audit-ready QSA challenge preparation.
 
 ### [ISO 27001:2022 Statement of Applicability](https://github.com/CalJMcRae/ISO-27001-SoA-Project)
 
-Built a risk-driven Statement of Applicability for a simulated 85-person cloud-native SaaS company, assessing all 93 Annex A controls against a documented risk assessment. Defended 10 control exclusions — including 5 with full auditor-challenge documentation — mapped every applicable control to specific risks via a traceability matrix, and maintained honest implementation status throughout (61 Implemented, 20 Partial, 2 Planned) rather than defaulting to blanket compliance claims.
+Built a risk-driven Statement of Applicability for a simulated 85-person cloud-native SaaS company, assessing all 93 Annex A controls against a documented risk assessment. Defended 10 control exclusions (including 5 with full auditor-challenge documentation), mapped every applicable control to specific risks via a traceability matrix, and maintained honest implementation status throughout (61 Implemented, 20 Partial, 2 Planned) rather than defaulting to blanket compliance claims.
 
 ### [Cloud Risk Assessment & Remediation Lab (AWS)](https://github.com/CalJMcRae/GRC-AWS-Project)
 
@@ -49,6 +49,10 @@ End-to-end GRC engagement on a purpose-built AWS environment for a simulated hea
 ### [AI Compliance Assessment (Eramba)](https://github.com/CalJMcRae/AI-Compliance-Project)
 
 Assessed a simulated clinical AI system against the EU AI Act and NIST AI RMF, classifying it as high-risk through a genuinely contested regulatory question (Annex III scope versus the medical-device route). Built an 18-control catalogue and a 10-risk register in Eramba, an open-source GRC platform self-hosted via Docker, then built and trained a real machine-learning model on AWS to test the assessment against actual evidence rather than design intent alone. The evaluation confirmed a critical fairness risk with measured data (the model understated risk for a disadvantaged subgroup by roughly nine times the gap seen elsewhere, despite balanced accuracy) and surfaced a new finding, model overfitting, that a paper-only assessment would have missed. Delivered a phased treatment plan and a documented recommendation not to deploy until the confirmed risks are resolved.
+
+### [IAM & Access Control Audit](https://github.com/CalJMcRae/IAM-Access-Control-Audit)
+
+ITGC-style audit of identity and access management for a simulated 210-person company on Microsoft 365 / Entra ID, covering provisioning, deprovisioning, privileged access management, MFA enforcement, access reviews, joiner/mover/leaver, and change management. Defined 14 testable controls with pass/fail criteria before examining any evidence, then tested each area against the full population or a judgmental sample as appropriate, producing 17 findings (5 critical, 5 high, 5 medium, 2 low). Traced three of the five critical findings back to a single root cause in change management rather than reporting them as independent failures, then consolidated everything into a phased remediation tracker and Jira-style tickets.
 
 ---
 
@@ -61,12 +65,13 @@ EU AI Act · NIST AI RMF 1.0
 **GRC Competencies**
 Risk Analysis & Assessment · Cloud Security Posture Review · Control Gap Analysis ·
 Remediation Planning · Security Policy Drafting · Vendor Risk Management · Audit Preparation ·
-AI Governance & Risk Classification
+AI Governance & Risk Classification · IT General Controls (ITGC) Testing · Identity & Access
+Management Audit
 
 **Tools & Platforms**
 AWS (VPC, EC2, S3, IAM, CloudTrail, KMS, SageMaker) · Eramba (GRC platform) ·
-Prowler (cloud security scanner) · Git / GitHub · Excel / Google Sheets (Risk Registers) ·
-Documentation & Reporting · AI Tools and Prompting
+Microsoft 365 / Entra ID · Prowler (cloud security scanner) · Git / GitHub ·
+Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools and Prompting
 
 ---
 
@@ -84,7 +89,7 @@ Documentation & Reporting · AI Tools and Prompting
 - Hold CompTIA Security+; currently studying for Network+
 - Working remotely as a GRC analyst at Bloom Support Group in Sydney, Australia
 - Building a GRC project portfolio on GitHub
-- Exploring opportunities in GRC analyst roles — open to remote and San Diego–area positions
+- Exploring opportunities in GRC analyst roles, open to remote and San Diego-area positions
 
 ---
 
