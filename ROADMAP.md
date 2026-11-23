@@ -184,15 +184,10 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 #### Deliverables
 
 - `vendor-risk-management.md`: full process documentation
-- 3-5 min Loom walkthrough
 
 #### Resume Bullet
 
 > Developed a third-party vendor risk management process including intake questionnaire, risk tiering, control evaluation, and ongoing monitoring cadence.
-
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
 
 ---
 
@@ -218,15 +213,10 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 #### Deliverables
 
 - `risk-acceptance.md`: formal risk acceptance memo
-- 3-5 min Loom walkthrough explaining the business context and your reasoning
 
 #### Resume Bullet
 
 > Produced executive-level risk acceptance documentation for a simulated legacy system scenario; quantified business impact and communicated compensating controls and review cadence to a non-technical audience.
-
-#### Lessons Learned
-
-*Was the business case for acceptance convincing? What would change your recommendation?*
 
 ---
 
@@ -259,15 +249,10 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 - `ai-compliance-assessment.md`: classification report, gap analysis, treatment plan, residual-risk sign-off
 - Eramba exports / screenshots: AI control catalogue, risk register, assessment, treatment plans
 - AI system data-flow diagram
-- 3-5 min Loom walkthrough, leading with the classification decision and the ambiguity
 
 #### Resume Bullet
 
 > Assessed a clinical AI system against the EU AI Act and NIST AI RMF, classifying it as high-risk through a genuinely contested regulatory question; built the control catalogue, 10-risk register and gap analysis in Eramba (open-source GRC platform); then built and evaluated a real machine-learning model on AWS to test the assessment against actual evidence, confirming a critical fairness risk with measured data and surfacing a new finding a design-only review would have missed.
-
-#### Lessons Learned
-
-*Where was the regulation genuinely unclear? How did you handle the classification ambiguity? What did operationalising it in a GRC tool teach you that a document wouldn't have?*
 
 ---
 
@@ -332,10 +317,6 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 > Conducted an ITGC-style audit of identity and access management for a simulated 210-person Microsoft 365 / Entra ID environment; designed a 14-control test plan with sampling methodology fixed before testing, produced a 17-finding register, traced multiple critical findings to a shared root cause in change management, and delivered a phased remediation plan converted into Jira-style tickets.
 
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
-
 ---
 
 ### Phase 9: Meridian Infrastructure Configuration Compliance (ServiceNow) `Complete ✅`
@@ -371,25 +352,6 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 #### Resume Bullet
 
 > Built a configuration compliance program in ServiceNow's GRC application, modeling real AWS infrastructure as configuration items, mapping 7 policy statements to NIST CSF 2.0, and tracking compliance assessments, an exception, and remediation issues; adapted the approach multiple times around real platform constraints rather than treating a clean path as a given.
-
-#### Lessons Learned
-
-*What would you do differently? What assumptions proved wrong? What surprised you?*
-
----
-
-## Portfolio Presentation Standards
-
-The Loom walkthroughs are not optional extras, they are a core part of this portfolio. A document proves you can write. A walkthrough proves you can communicate. For an entry-level GRC role, being able to explain your reasoning out loud is exactly the skill being tested.
-
-**For each completed project:**
-
-- Record a 3-5 minute Loom walkthrough
-- Lead with the scenario and what made it challenging
-- Walk through your key decisions, not the whole document
-- Explicitly call out the trade-offs you faced
-- End with what you would do differently or what you are still uncertain about
-- Add the Loom link to the project README
 
 ---
 
@@ -442,7 +404,6 @@ Run this against every deliverable before publishing.
 - [ ] Is residual risk acknowledged?
 - [ ] Would this survive audit-style challenge?
 - [ ] Can a non-technical executive understand the key points?
-- [ ] Is the Loom walkthrough recorded and linked?
 - [ ] Is there a lessons learned note at the end?
 
 ---
