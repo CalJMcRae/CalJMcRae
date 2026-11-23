@@ -54,6 +54,10 @@ Assessed a simulated clinical AI system against the EU AI Act and NIST AI RMF, c
 
 ITGC-style audit of identity and access management for a simulated 210-person company on Microsoft 365 / Entra ID, covering provisioning, deprovisioning, privileged access management, MFA enforcement, access reviews, joiner/mover/leaver, and change management. Defined 14 testable controls with pass/fail criteria before examining any evidence, then tested each area against the full population or a judgmental sample as appropriate, producing 17 findings (5 critical, 5 high, 5 medium, 2 low). Traced three of the five critical findings back to a single root cause in change management rather than reporting them as independent failures, then consolidated everything into a phased remediation tracker and Jira-style tickets.
 
+### [Meridian Infrastructure Configuration Compliance (ServiceNow)](https://github.com/CalJMcRae/ServiceNow-Configuration-Compliance)
+
+Built a configuration compliance program in ServiceNow's GRC: Policy and Compliance Management application, modeling real infrastructure from the AWS cloud risk assessment project as CMDB configuration items instead of inventing sample data. Defined 7 policy statements mapped to NIST CSF 2.0, reusing that project's exact subcategory mappings for carried-over findings, and assessed all 8 resulting Controls (3 pass, 4 fail, 1 fail with a documented exception). When the platform's native compliance-measurement mechanism turned out to be non-functional without a separate plugin this project deliberately avoided after repeated unstable installs, pivoted to a working alternative (Issue records and direct field updates) and documented the limitation honestly rather than forcing the original plan.
+
 ---
 
 ## Skills
@@ -70,8 +74,9 @@ Management Audit
 
 **Tools & Platforms**
 AWS (VPC, EC2, S3, IAM, CloudTrail, KMS, SageMaker) · Eramba (GRC platform) ·
-Microsoft 365 / Entra ID · Prowler (cloud security scanner) · Git / GitHub ·
-Excel / Google Sheets (Risk Registers) · Documentation & Reporting · AI Tools and Prompting
+ServiceNow (GRC: Policy and Compliance Management, CMDB) · Microsoft 365 / Entra ID ·
+Prowler (cloud security scanner) · Git / GitHub · Excel / Google Sheets (Risk Registers) ·
+Documentation & Reporting · AI Tools and Prompting
 
 ---
 

@@ -338,6 +338,46 @@ This is the most comprehensive and multifaceted project in my portfolio so far. 
 
 ---
 
+### Phase 9: Meridian Infrastructure Configuration Compliance (ServiceNow) `Complete ✅`
+
+> Self-initiated after completing ServiceNow's "Configuration Compliance Essentials" course on LearnNow, to build baseline hands-on competency with ServiceNow's GRC application on its free Developer Instance. Models the same real infrastructure from Phase 3 (the AWS lab project) as CMDB configuration items, then builds an actual configuration compliance program around them: policy statements, compliance results, an exception, and remediation tracking, inside a real GRC platform rather than a document describing one.
+
+| | |
+|---|---|
+| **Platform** | ServiceNow (GRC: Policy and Compliance Management, CMDB), Personal Developer Instance |
+| **Framework** | NIST CSF 2.0 (reusing the AWS lab project's exact subcategory mappings for carried-over findings) |
+| **Key skill** | Navigating a real enterprise GRC platform's actual object model (Authority Documents, Citations, Policies, Policy Statements, Entities, Controls, Issues), and adapting around genuine platform constraints rather than treating a clean build as a given |
+| **Why it matters** | ServiceNow is one of the most widely deployed GRC platforms in industry; demonstrating baseline fluency in it, on top of Eramba from Phase 6, shows adaptability across tools rather than depth in only one |
+
+#### Tasks
+
+- [x] Model the AWS lab project's real infrastructure (`meridian-web`, `meridian-db`, the customer-reports S3 bucket) as ServiceNow CMDB configuration items
+- [x] Create an Authority Document (NIST CSF 2.0) and Citations for the subcategories referenced
+- [x] Build a Policy ("Meridian Infrastructure Configuration Standard") with 7 Policy Statements, 5 reusing known AWS lab project findings and 2 genuinely new to this project
+- [x] Link each statement to the correct CMDB entity and assess compliance for all 8 resulting Controls
+- [x] Document one risk-acceptance exception with a compensating control and review date
+- [x] Track every non-compliant result as an Issue with a remediation recommendation and priority
+- [x] Diagnose and work around two separate non-functional platform mechanisms (a stalled plugin install tied to an unrelated upgrade path, and a non-functional native attestation workflow), documenting both rather than hiding them
+- [x] Write the project README summarising scenario, approach, results, and limitations
+
+#### Deliverables
+
+- [Repo: ServiceNow-Configuration-Compliance](https://github.com/CalJMcRae/ServiceNow-Configuration-Compliance)
+- CMDB design and mapping back to the AWS lab project's real assets
+- 7-statement compliance policy mapped to NIST CSF 2.0
+- Compliance results for all 8 Controls (3 pass, 4 fail, 1 fail with a documented exception)
+- One documented exception, a remediation tracker, and Issue records for every open finding
+
+#### Resume Bullet
+
+> Built a configuration compliance program in ServiceNow's GRC application, modeling real AWS infrastructure as configuration items, mapping 7 policy statements to NIST CSF 2.0, and tracking compliance assessments, an exception, and remediation issues; adapted the approach multiple times around real platform constraints rather than treating a clean path as a given.
+
+#### Lessons Learned
+
+*What would you do differently? What assumptions proved wrong? What surprised you?*
+
+---
+
 ## Portfolio Presentation Standards
 
 The Loom walkthroughs are not optional extras, they are a core part of this portfolio. A document proves you can write. A walkthrough proves you can communicate. For an entry-level GRC role, being able to explain your reasoning out loud is exactly the skill being tested.
@@ -365,6 +405,7 @@ The Loom walkthroughs are not optional extras, they are a core part of this port
 | Risk Acceptance Documentation | Planned |
 | GRC Control Automation | Stretch goal |
 | IAM & Access Control Audit (mentor-assigned) | Complete ✅ |
+| Meridian Infrastructure Configuration Compliance (ServiceNow) | Complete ✅ |
 
 ---
 
@@ -379,6 +420,7 @@ The Loom walkthroughs are not optional extras, they are a core part of this port
 - [x] Phase 6: AI Compliance Assessment (Eramba)
 - [ ] Phase 7: GRC Control Automation *(stretch)*
 - [x] Phase 8: IAM & Access Control Audit *(mentor-assigned)*
+- [x] Phase 9: Meridian Infrastructure Configuration Compliance (ServiceNow) *(self-initiated)*
 
 ### Certifications
 - [x] CompTIA Security+
