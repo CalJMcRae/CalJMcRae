@@ -8,21 +8,22 @@ I'm currently a GRC Analyst at Bloom Support Group,
 a micro company where I wear multiple hats in strengthening our security 
 and compliance posture, including:
 
-- Identifying organizational risks and developing practical fixes to 
-  remediate them, keeping the company aligned with compliance requirements
-- Uncovered gaps in data storage security and client privacy protections, 
-  particularly important given Bloom's work supporting individuals with 
-  disabilities, and implemented fixes to close them
-- Conducting risk assessments and maintaining the risk register
-- Supporting audits and ensuring compliance with frameworks such as 
-  NIST CSF / ISO 27001, and Privacy Impact Assessments under the 
-  Australian Privacy Act (APPs)
-- Developing and maintaining security policies and procedures
-- Communicating risk findings and remediation plans to stakeholders and 
-  business decision makers, translating technical issues into 
-  business-relevant terms
-- Monitoring control effectiveness and tracking remediation from 
-  identification through resolution
+- Built Bloom's GRC program from the ground up in Eramba, applying the CIA 
+  triad to guide control design, standing up the risk register, adding 
+  compliance frameworks, and drafting the first 2 policies in a new policy library
+- Used ISO 27001 to assess existing controls and identified 7 critical gaps 
+  in data storage security and client privacy protections, particularly 
+  important given Bloom's work supporting individuals with disabilities, 
+  then resolved all 7 within the first 4 months
+- Maintain the risk register in Eramba and create Plans of Action and 
+  Milestones (POA&Ms) to drive remediation, with 17 risks confirmed and 
+  remediated to date
+- Review SIG questionnaires from third-party vendors to evaluate their risk, 
+  and run compliance and control assessments against ISO 27001 and NIST CSF, 
+  applying the Australian Privacy Principles (APPs) to support privacy compliance
+- Serve as the primary point of contact for GRC and security questions, 
+  translating technical and procedural controls into clear, business-relevant 
+  terms for stakeholders and decision makers
 
 Working at a micro company means I'm involved end-to-end, from spotting 
 a risk to implementing the fix, giving me a well-rounded, hands-on 
@@ -82,8 +83,8 @@ Documentation & Reporting · AI Tools and Prompting
 
 ## Certifications
 
-- CompTIA Security+ 
-- CompTIA Network+ - In progress
+- CompTIA Security+
+- CompTIA Network+
 - AWS Solutions Architect Associate - In progress
 - **Roadmap:** CRISC · CISM · CISSP (long-term)
 
@@ -91,10 +92,10 @@ Documentation & Reporting · AI Tools and Prompting
 
 ## Currently
 
-- Hold CompTIA Security+; currently studying for Network+
-- Working remotely as a GRC analyst at Bloom Support Group in Sydney, Australia
+- Hold CompTIA Security+ and CompTIA Network+; pursuing AWS Certified Solutions Architect - Associate
+- Working remotely as a GRC Analyst at Bloom Support Group
 - Building a GRC project portfolio on GitHub
-- Exploring opportunities in GRC analyst roles, open to remote and San Diego-area positions
+- Based in Carlsbad, CA; exploring opportunities in GRC analyst roles, open to remote and San Diego-area positions
 
 ---
 

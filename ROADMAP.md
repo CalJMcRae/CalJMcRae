@@ -424,7 +424,7 @@ The Loom walkthroughs are not optional extras, they are a core part of this port
 
 ### Certifications
 - [x] CompTIA Security+
-- [ ] CompTIA Network+ *(in progress)*
+- [x] CompTIA Network+
 - [ ] AWS Solutions Architect Associate *(in progress)*
 - [ ] CRISC *(next milestone)*
 - [ ] CISM *(long-term)*
